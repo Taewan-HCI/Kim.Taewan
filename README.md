@@ -21,6 +21,9 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 *Taewan Kim, and Hwajung Hong*
 **Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-related Problems on Social Network Sites: Online Survey and Interview Study** - Journal of Medical Internet Research - Mental Health 2021 | [DOI](http://dx.doi.org/10.2196/23465) | PDF (in press)
 
+*Taewan Kim, Mintra Ruensuk, and Hwajung Hong*
+**In Helping a Vulnerable Bot, You Help Yourself: Designing a Social Bot as a Care-Receiver to Promote Mental Health and Reduce Stigma** - ACM CHI 2020 | [DOI](http://dx.doi.org/10.2196/23465) | [PDF](https://drive.google.com/file/d/1Mybrw_6DC98xS6KXUR0lcbENucuWuM3J/view)
+
 *Youjin Hwang, Taewan Kim, Junhan Kim, Joonhwan Lee, and Hwajung Hong* - **Leveraging challenges of an algorithm-based symptom checker on user trust through explainable AI** - CHI 2021 Workshop on Realizing AI in Healthcare: Challenges Appearing in the Wild | [PDF](https://drive.google.com/file/d/1Y2KLQmBRPKBEos1QYcaneLPwmISeb5-N/view) 
 
 
