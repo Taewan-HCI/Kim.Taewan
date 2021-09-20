@@ -1,6 +1,5 @@
-# Hi there 👋
-
 # Taewan Kim
+Hi there 👋
 
 I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https://kaist.ac.kr), advised by Prof. [Hwajung Hong](https://hwajunghong.com), as a member of DxD (data interaction design) Lab.
 
