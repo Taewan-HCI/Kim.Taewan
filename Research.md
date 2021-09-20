@@ -2,7 +2,7 @@
 
 by Taewan Kim, Youjin Hwang, Junhan Kim, Joonhwan Lee, and Hwajung Hong
 
-![symptom](./img/symptom.jpg)
+![symptom](./img/symptom.png)
 
 > **Keywords: Algorithmic experience, symptom checker, explainable AI**
 
@@ -19,7 +19,7 @@ with the symptom checker at the best of our knowledge even though user-centered 
 
 by Taewan Kim, Mintra Ruensuk, and Hwajung Hong
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f796b000-ba00-4925-844e-a236e93286cb/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f796b000-ba00-4925-844e-a236e93286cb/Untitled.png)
+![glommy](./img/gloomy.png)
 
 > **Keywords: Mental wellbeing, Algorithmic Experience, Mental health, Social bot, Human-bot Interaction, College student**
 
@@ -45,7 +45,7 @@ College students are at a vulnerable age; among those with serious mental health
 
 > by Taewan Kim, Youngwoo Park, and Hwajung Hong
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74552270-c955-44b9-81c1-992c8e5a0ee6/calm.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/74552270-c955-44b9-81c1-992c8e5a0ee6/calm.jpg)
+![calm](./img/calmstation.png)
 
 **Keywords: Digital distraction, Mental wellbeing, Notification, Interaction design**
 
@@ -59,7 +59,7 @@ In this work, we present Calm Station, an interactive desk object which generate
 
 > by Mingu Kang, Taewan Kim, Youngjae Kim, and Junghwan Ahn
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e2a1ea5-6914-4464-92bf-329bd66efaef/famcom.jpg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7e2a1ea5-6914-4464-92bf-329bd66efaef/famcom.jpg)
+![famcom](./img/famcom.png)
 
 **Keywords: Social computing, Communication, Care-hospital**
 
