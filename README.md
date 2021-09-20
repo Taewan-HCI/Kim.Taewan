@@ -19,4 +19,5 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 
 ![profile](./profile1.jpg)
 
+---
 © Taewan Kim. 2021. All rights reserved. 
