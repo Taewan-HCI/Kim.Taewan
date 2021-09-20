@@ -2,9 +2,7 @@
 
 by Taewan Kim, Youjin Hwang, Junhan Kim, Joonhwan Lee, and Hwajung Hong
 
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/14a32e54-2359-4690-8208-259f7c26c879/Screen_Shot_2021-07-07_at_7.53.19_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/14a32e54-2359-4690-8208-259f7c26c879/Screen_Shot_2021-07-07_at_7.53.19_PM.png)
-
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a14821e-8950-438d-8c96-30f8bed5febd/Screen_Shot_2021-07-07_at_7.52.57_PM.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7a14821e-8950-438d-8c96-30f8bed5febd/Screen_Shot_2021-07-07_at_7.52.57_PM.png)
+![symptom](./img/symptom.jpg)
 
 > **Keywords: Algorithmic experience, symptom checker, explainable AI**
 
