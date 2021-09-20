@@ -1,4 +1,4 @@
-### [🏠Home   ](./README.md)   [🗂Research Project   ](./Research.md)   [📚Publication   ](./Publication.md)
+**[🏠Home](./README.md)** **·** **[🗂Research Project](./Research.md)** **·** **[📚Publication](./Publication.md)**
 
 # 👋 Hi there 
 
