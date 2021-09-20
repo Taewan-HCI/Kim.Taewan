@@ -6,11 +6,11 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 
 **My research interests are**
 
-### Algorithmic user experience (Human-AI interaction)
+*Algorithmic user experience (Human-AI interaction)*
 - Studies focusing on exploring and understanding the algorithmic user experiences.
 - Studies for developing systems and tools for designing and evaluating in the algorithmic experience.
 
-### Interactive system for mental & physical wellbeing
+*Interactive system for mental & physical wellbeing*
 - Studies focusing on designing interactive systems for mental & physical wellbeing.
 - Studies for understanding how people use technology for their mental & physical well-being.
 
@@ -24,6 +24,7 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 *Taewan Kim, Mintra Ruensuk, and Hwajung Hong* - **In Helping a Vulnerable Bot, You Help Yourself: Designing a Social Bot as a Care-Receiver to Promote Mental Health and Reduce Stigma** - ACM CHI 2020,  [DOI](https://dl.acm.org/doi/abs/10.1145/3313831.3376743) | [PDF](https://drive.google.com/file/d/1Mybrw_6DC98xS6KXUR0lcbENucuWuM3J/view)
 
 *Taewan Kim, James Andrew Self, and Hwajung Hong* - **Design Constraints and Their Influence upon Design Outcome** - Archives of Design Research 2018, [DOI](https://doi.org/10.15187/adr.2018.11.31.4.23) | [PDF](https://drive.google.com/file/d/14Bx8AF0Dts-Qta02l5SBD2ZOmWnF3dpl/view)
+
 
 **Extended Abstracts, Position Paper, Poster (Lightly Peer-Reviewed)**
 
