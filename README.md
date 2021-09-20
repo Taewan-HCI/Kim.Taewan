@@ -33,7 +33,7 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 
 *Taewan Kim, and Hwajung Hong* - **Studying Students Experiencing Mental Health Problems** - CSCW 2018 Workshop on Conducting Research with Stigmatized Populations | [PDF](https://drive.google.com/file/d/1CHSTtNAiKYv0aA1ikpc4owbm_e_h2TzS/view)
 
-*Taewan Kim, Young-Woo Park, and Hwajung Hong* - **Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions** - ACM DIS 2017, [DOI](https://doi.org/10.1145/3064857.3079183) | [PDF](https://drive.google.com/file/d/1M6rPOFV3lEyjL5JPzq8seV9uUsFbycRH/view)
+*Taewan Kim, Young-Woo Park, and Hwajung Hong* - **Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions** - ACM DIS 2017, [DOI](https://doi.org/10.1145/3064857.3079183) | [PDF](https://drive.google.com/file/d/1M6rPOFV3lEyjL5JPzq8seV9uUsFbycRH/view)
 
 
 
