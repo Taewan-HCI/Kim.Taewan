@@ -14,8 +14,8 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
   * Studies focusing on designing interactive systems for mental & physical wellbeing
 
 ### 📨 Contact
-* Mail: taewan@kaist.ac.kr
-* CV: [PDF](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2b0d921d-e6a3-45fe-b85b-cad6da661e23/CV_Taewan_Kim_Aug2021.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T084024Z&X-Amz-Expires=86400&X-Amz-Signature=3c9a5781cfca008480541cc403cb18223e6b10b62039c6dba38aca5403756541&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22CV_Taewan%2520Kim_Aug2021.pdf%22)
+* taewan@kaist.ac.kr
+* [CV (PDF)](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/2b0d921d-e6a3-45fe-b85b-cad6da661e23/CV_Taewan_Kim_Aug2021.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210920%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210920T084024Z&X-Amz-Expires=86400&X-Amz-Signature=3c9a5781cfca008480541cc403cb18223e6b10b62039c6dba38aca5403756541&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22CV_Taewan%2520Kim_Aug2021.pdf%22)
 
 ### 🗓️ News
 - Aug, 2021: “Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-related Problems on Social Network Sites: Online Survey and Interview Study” has been accepted to **JMIR Mental Health**.
