@@ -17,7 +17,7 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 
 # Publications
 
-## Journal Articles / Conference Proceedings (Peer-Reviewed)
+**Journal Articles / Conference Proceedings (Peer-Reviewed)**
 
 *Taewan Kim, and Hwajung Hong* - **Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-related Problems on Social Network Sites: Online Survey and Interview Study** - Journal of Medical Internet Research - Mental Health 2021 (In press) | [DOI](http://dx.doi.org/10.2196/23465)
 
@@ -25,7 +25,7 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 
 *Taewan Kim, James Andrew Self, and Hwajung Hong* - **Design Constraints and Their Influence upon Design Outcome** - Archives of Design Research 2018 | [PDF](https://drive.google.com/file/d/14Bx8AF0Dts-Qta02l5SBD2ZOmWnF3dpl/view) [DOI](https://doi.org/10.15187/adr.2018.11.31.4.23)
 
-## Extended Abstracts, Position Paper, Poster (Lightly Peer-Reviewed)
+**Extended Abstracts, Position Paper, Poster (Lightly Peer-Reviewed)**
 
 *Youjin Hwang, Taewan Kim, Junhan Kim, Joonhwan Lee, and Hwajung Hong* - **Leveraging challenges of an algorithm-based symptom checker on user trust through explainable AI** - ACM CHI 2021 Workshop on Realizing AI in Healthcare: Challenges Appearing in the Wild | [PDF](https://drive.google.com/file/d/1Y2KLQmBRPKBEos1QYcaneLPwmISeb5-N/view)
 
