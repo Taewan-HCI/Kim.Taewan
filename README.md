@@ -1,4 +1,4 @@
-![profile](./profile.jpeg)
+![profile](./profile.jpg)
 
 **Hi there 👋**
 
