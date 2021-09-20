@@ -20,3 +20,4 @@
 
 *Taewan Kim, Young-Woo Park, and Hwajung Hong* - **Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions** - ACM DIS 2017, [DOI](https://doi.org/10.1145/3064857.3079183) | [PDF](https://drive.google.com/file/d/1M6rPOFV3lEyjL5JPzq8seV9uUsFbycRH/view)
 
+© Taewan Kim. 2021. All rights reserved. 
