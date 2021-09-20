@@ -1,7 +1,5 @@
 **[🏠Home](./README.md)**   **[🗂Research Project](./Research.md)**   **[📚Publication](./Publication.md)**
 
-![profile](./profile1.jpg){: width="50%" height="50%"}
-
 # 👋 Hi there 
 
 I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https://kaist.ac.kr), advised by Prof. [Hwajung Hong](https://hwajunghong.com), as a member of DxD (data interaction design) Lab.
@@ -24,6 +22,7 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 - May, 2021: Our workshop position paper titled “Leveraging challenges of an algorithm-based symptom checker on user trust through explainable AI” has been accepted to the **Workshop at CHI 2021 (Realizing AI in Healthcare: Challenges Appearing in the Wild)**.
 - Jan, 2021: Our conference extended abstract titled “An exploratory study on the algorithm user experience of a symptom checker application for self-diagnosis” has been accepted to the conference proceeding of **HCI Korea 2021**.
 
+![profile](./profile1.jpg){: width="50%" height="50%"}
 
 ---
 © Taewan Kim. 2021. All rights reserved. 
