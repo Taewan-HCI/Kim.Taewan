@@ -7,7 +7,7 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 
 |**Algorithmic user experience (Human-AI interaction)**|**Interactive system for mental & physical wellbeing**|
 |:---|:---|
-|- Studies focusing on exploring and understanding the algorithmic user experiences.|- Studies focusing on designing interactive systems for mental & physical wellbeing.|
+|- Studies on exploring and understanding the algorithmic user experiences.|- Studies on designing interactive systems for mental & physical wellbeing.|
 |- Studies for developing systems and tools for designing and evaluating in the algorithmic experience.|- Studies for understanding how people use technology for their mental & physical well-being.|
 
 **Contact**
