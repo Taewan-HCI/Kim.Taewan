@@ -12,9 +12,7 @@
 An algorithm-based symptom checker is a service that predicts and informs the expected disease name based on the symptoms entered by users and informs the user of actions to be taken afterward. Few studies have been done on the perception and algorithm experience
 with the symptom checker at the best of our knowledge even though user-centered research on how users interact with algorithms and interpret the algorithmic results has recently emerged largely in the field of HCI. In this study, we conduct an empirical study defining challenges that prevent user trust toward algorithm-based symptom checkers. 
 
-[ACM CHI2021 Workshop position paper](https://drive.google.com/file/d/1Y2KLQmBRPKBEos1QYcaneLPwmISeb5-N/view?usp=sharing)
-
-[HCIK2021 Extended Abstract](https://drive.google.com/file/d/1gG2XxffOtBx6ohDSFps8g2CNjHoY655q/view?usp=sharing)
+[ACM CHI2021 Workshop position paper](https://drive.google.com/file/d/1Y2KLQmBRPKBEos1QYcaneLPwmISeb5-N/view?usp=sharing), [HCIK2021 Extended Abstract](https://drive.google.com/file/d/1gG2XxffOtBx6ohDSFps8g2CNjHoY655q/view?usp=sharing)
 
 ---
 
@@ -53,7 +51,7 @@ College students are at a vulnerable age; among those with serious mental health
 
 In this work, we present Calm Station, an interactive desk object which generate dynamic motions of a metal marble on a wooden tray. Calm Station is designed to convey daily notifications with abstract, poetic movements. It allows users to remain focused while doing desk work, reading, or relaxing by transferring distracting notifications, including updates and messages.
 
-[ACM DIS2018 Demo](https://doi.org/10.1145/3064857.3079183) | [Video](https://youtu.be/gCBQhNUlmzo)
+[ACM DIS2018 Demo](https://doi.org/10.1145/3064857.3079183), [Video](https://youtu.be/gCBQhNUlmzo)
 
 ---
 
@@ -67,7 +65,7 @@ In this work, we present Calm Station, an interactive desk object which generate
 
 FamCom is a service which aids a patient in care hospital to feel more intimate with family members by improving the quality of conversation. We conducted survey, contextual inquiry, personas, scenarios and user test using low and high-fidelity prototypes to enhance the quality of conversation. According to our research lack of conversation topics depreciates the quality of conversation. FamCom provides conversation sources to family members to increase the intimacy between patient and family members.
 
-[ACM CHI2015 Student Design Competition](https://dl.acm.org/doi/10.1145/2702613.2726952) | [Video](https://youtu.be/hnQ5MZfrw60)
+[ACM CHI2015 Student Design Competition](https://dl.acm.org/doi/10.1145/2702613.2726952), [Video](https://youtu.be/hnQ5MZfrw60)
 
 ---
 © Taewan Kim. 2021. All rights reserved. 
