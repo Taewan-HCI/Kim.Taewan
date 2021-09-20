@@ -1,3 +1,5 @@
+**[🗂Research](./Research.md)**, **[📚Publication](./Publication.md)**
+
 ![profile](./profile1.jpg)
 
 **Hi there 👋**
@@ -13,7 +15,7 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
   * Studies for understanding how people use technology for their mental & physical well-being
   * Studies focusing on designing interactive systems for mental & physical wellbeing
 
-**[Research Project](./Research.md)**
+
 
 **📨Contact**
 * Mail: taewan@kaist.ac.kr
