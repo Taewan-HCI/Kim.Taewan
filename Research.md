@@ -70,3 +70,5 @@ In this work, we present Calm Station, an interactive desk object which generate
 FamCom is a service which aids a patient in care hospital to feel more intimate with family members by improving the quality of conversation. We conducted survey, contextual inquiry, personas, scenarios and user test using low and high-fidelity prototypes to enhance the quality of conversation. According to our research lack of conversation topics depreciates the quality of conversation. FamCom provides conversation sources to family members to increase the intimacy between patient and family members.
 
 [ACM CHI2015 Student Design Competition](https://dl.acm.org/doi/10.1145/2702613.2726952) | [Video](https://youtu.be/hnQ5MZfrw60)
+
+© Taewan Kim. 2021. All rights reserved. 
