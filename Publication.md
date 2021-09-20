@@ -1,6 +1,6 @@
 **[🏠Home](./README.md)**   **[🗂Research Project](./Research.md)**   **[📚Publication](./Publication.md)**
 
-# 📚 Publications
+# 📚 Publication
 
 ## Journal Articles / Conference Proceedings (Peer-Reviewed)
 
