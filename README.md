@@ -24,7 +24,7 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 
 *Taewan Kim, Mintra Ruensuk, and Hwajung Hong* - **In Helping a Vulnerable Bot, You Help Yourself: Designing a Social Bot as a Care-Receiver to Promote Mental Health and Reduce Stigma** - ACM CHI 2020 | [PDF](https://drive.google.com/file/d/1Mybrw_6DC98xS6KXUR0lcbENucuWuM3J/view)[DOI](https://dl.acm.org/doi/abs/10.1145/3313831.3376743)
 
-*Taewan Kim, James Andrew Self, and Hwajung Hong* - **Design Constraints and Their Influence upon Design Outcome** - Archives of Design Research 2018 | [PDF](https://drive.google.com/file/d/14Bx8AF0Dts-Qta02l5SBD2ZOmWnF3dpl/view)[DOI](https://doi.org/10.15187/adr.2018.11.31.4.23)
+*Taewan Kim, James Andrew Self, and Hwajung Hong* - **Design Constraints and Their Influence upon Design Outcome** - Archives of Design Research 2018 | [PDF](https://drive.google.com/file/d/14Bx8AF0Dts-Qta02l5SBD2ZOmWnF3dpl/view) [DOI](https://doi.org/10.15187/adr.2018.11.31.4.23)
 
 ## Extended Abstracts, Position Paper, Poster (Lightly Peer-Reviewed)
 
@@ -34,7 +34,7 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 
 *Taewan Kim, and Hwajung Hong* - **Studying Students Experiencing Mental Health Problems** - CSCW 2018 Workshop on Conducting Research with Stigmatized Populations | [PDF](https://drive.google.com/file/d/1CHSTtNAiKYv0aA1ikpc4owbm_e_h2TzS/view)
 
-*Taewan Kim, Young-Woo Park, and Hwajung Hong* - **Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions** - ACM DIS 2017 | [PDF](https://drive.google.com/file/d/1M6rPOFV3lEyjL5JPzq8seV9uUsFbycRH/view)[DOI](https://doi.org/10.1145/3064857.3079183)
+*Taewan Kim, Young-Woo Park, and Hwajung Hong* - **Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions** - ACM DIS 2017 | [PDF](https://drive.google.com/file/d/1M6rPOFV3lEyjL5JPzq8seV9uUsFbycRH/view) [DOI](https://doi.org/10.1145/3064857.3079183)
 
 
 
