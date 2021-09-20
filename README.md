@@ -4,10 +4,12 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 
 **My research interests are**
 
-|**Algorithmic user experience (Human-AI interaction)**|**Interactive system for mental & physical wellbeing**|
-|:---|:---|
-|- Studies on exploring and understanding the algorithmic user experiences.|- Studies on designing interactive systems for mental & physical wellbeing.|
-|- Studies for developing systems and tools for designing and evaluating in the algorithmic experience.|- Studies for understanding how people use technology for their mental & physical well-being.|
+* **Algorithmic user experience (Human-AI interaction)**
+  * Studies on exploring and understanding the algorithmic user experiences.
+  * Studies on designing interactive systems for mental & physical wellbeing.
+* **Interactive system for mental & physical wellbeing**
+  * Studies for understanding how people use technology for their mental & physical well-being
+  * Studies focusing on designing interactive systems for mental & physical wellbeing
 
 **Contact**
 * Mail: taewan@kaist.ac.kr
