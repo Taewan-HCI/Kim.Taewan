@@ -1,5 +1,7 @@
 **[🏠Home](./README.md)**   **[🗂Research Project](./Research.md)**   **[📚Publication](./Publication.md)**
 
+# 🗂Research Project
+
 ## Understanding algorithmic user experience of symptom checker
 
 by Taewan Kim, Youjin Hwang, Junhan Kim, Joonhwan Lee, and Hwajung Hong
