@@ -23,5 +23,7 @@ I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https
 - Aug, 2021: “Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-related Problems on Social Network Sites: Online Survey and Interview Study” has been accepted to **JMIR Mental Health**.
 - May, 2021: Our workshop position paper titled “Leveraging challenges of an algorithm-based symptom checker on user trust through explainable AI” has been accepted to the **Workshop at CHI 2021 (Realizing AI in Healthcare: Challenges Appearing in the Wild)**.
 - Jan, 2021: Our conference extended abstract titled “An exploratory study on the algorithm user experience of a symptom checker application for self-diagnosis” has been accepted to the conference proceeding of **HCI Korea 2021**.
+
+
 ---
 © Taewan Kim. 2021. All rights reserved. 
