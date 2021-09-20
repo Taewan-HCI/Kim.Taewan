@@ -1,4 +1,6 @@
-### **Understanding algorithmic user experience of symptom checker**
+**[🏠Home](./README.md)**   **[🗂Research Project](./Research.md)**   **[📚Publication](./Publication.md)**
+
+## Understanding algorithmic user experience of symptom checker
 
 by Taewan Kim, Youjin Hwang, Junhan Kim, Joonhwan Lee, and Hwajung Hong
 
@@ -15,7 +17,7 @@ with the symptom checker at the best of our knowledge even though user-centered 
 
 ---
 
-### **Designing Social Bot as a Care-Receiver to Promote Mental Health and Reduce Stigma**
+## Designing Social Bot as a Care-Receiver to Promote Mental Health and Reduce Stigma
 
 by Taewan Kim, Mintra Ruensuk, and Hwajung Hong
 
@@ -29,7 +31,7 @@ In this study, we proposed a Facebook-based social bot displaying depressive sym
 
 ---
 
-### **Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-related Problems on Social Network Sites**
+## Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-related Problems on Social Network Sites
 
 > by Taewan Kim, and Hwajung Hong
 
@@ -41,7 +43,7 @@ College students are at a vulnerable age; among those with serious mental health
 
 ---
 
-### **Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions**
+## Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions
 
 > by Taewan Kim, Youngwoo Park, and Hwajung Hong
 
@@ -55,7 +57,7 @@ In this work, we present Calm Station, an interactive desk object which generate
 
 ---
 
-### **FamCom: A Communication Service Enhancing Conversation Quality Between Elders Residing in Care Hospital and Their Family Member**
+## FamCom: A Communication Service Enhancing Conversation Quality Between Elders Residing in Care Hospital and Their Family Member
 
 > by Mingu Kang, Taewan Kim, Youngjae Kim, and Junghwan Ahn
 
