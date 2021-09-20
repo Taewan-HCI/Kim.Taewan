@@ -4,7 +4,7 @@ Hi there 👋
 I’m a Ph.D. student studying Human-computer Interaction (HCI) at [KAIST](https://kaist.ac.kr), advised by Prof. [Hwajung Hong](https://hwajunghong.com), as a member of DxD (data interaction design) Lab.
 
 
-# Research Interests
+**My research interests are**
 
 ### Algorithmic user experience (Human-AI interaction)
 - Studies focusing on exploring and understanding the algorithmic user experiences.
