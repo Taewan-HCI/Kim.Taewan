@@ -18,7 +18,7 @@
 
 *Taewan Kim, and Hwajung Hong* - **Studying Students Experiencing Mental Health Problems** - CSCW 2018 Workshop on Conducting Research with Stigmatized Populations - [PDF](https://drive.google.com/file/d/1CHSTtNAiKYv0aA1ikpc4owbm_e_h2TzS/view)
 
-*Taewan Kim, Young-Woo Park, and Hwajung Hong* - **Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions** - ACM DIS 2017 - [DOI](https://doi.org/10.1145/3064857.3079183), [PDF](https://drive.google.com/file/d/1M6rPOFV3lEyjL5JPzq8seV9uUsFbycRH/view)
+*Taewan Kim, Young-Woo Park, and Hwajung Hong* - **Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions** - ACM DIS 2017 - [DOI](https://doi.org/10.1145/3064857.3079183), [PDF](https://drive.google.com/file/d/1M6rPOFV3lEyjL5JPzq8seV9uUsFbycRH/view), [Video](https://www.youtube.com/watch?v=gCBQhNUlmzo)
 
 *Mingu Kang, Taewan Kim, Youngjae Kim, and Junghwan Ahn* - **FamCom: A Communication Service Enhancing Conversation Quality Between Elders Residing in Care Hospital and Their Family Member** - ACM CHI 2015 Student Design Competition - [DOI](https://dl.acm.org/doi/10.1145/2702613.2726952), [PDF](https://drive.google.com/file/d/149Zb1oxzCqKtF4PxcRviFjmhshODYZQT/view), [Video](https://www.youtube.com/watch?v=hnQ5MZfrw60)
 
