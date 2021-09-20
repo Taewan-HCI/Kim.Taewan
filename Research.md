@@ -69,4 +69,5 @@ FamCom is a service which aids a patient in care hospital to feel more intimate 
 
 [ACM CHI2015 Student Design Competition](https://dl.acm.org/doi/10.1145/2702613.2726952) | [Video](https://youtu.be/hnQ5MZfrw60)
 
+---
 © Taewan Kim. 2021. All rights reserved. 
