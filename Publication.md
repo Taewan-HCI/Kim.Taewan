@@ -22,5 +22,6 @@
 
 * *Mingu Kang, Taewan Kim, Youngjae Kim, and Junghwan Ahn* - **FamCom: A Communication Service Enhancing Conversation Quality Between Elders Residing in Care Hospital and Their Family Member** - ACM CHI 2015 Student Design Competition - [DOI](https://dl.acm.org/doi/10.1145/2702613.2726952), [PDF](https://drive.google.com/file/d/149Zb1oxzCqKtF4PxcRviFjmhshODYZQT/view), [Video](https://www.youtube.com/watch?v=hnQ5MZfrw60)
 
+
 ---
 © Taewan Kim. 2021. All rights reserved. 
