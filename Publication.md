@@ -4,7 +4,7 @@
 
 ### Journal Articles / Conference Proceedings (Peer-Reviewed)
 
-* *Taewan Kim, and Hwajung Hong* - **Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-related Problems on Social Network Sites: Online Survey and Interview Study** - Journal of Medical Internet Research - Mental Health 2021 (In press) - [DOI](http://dx.doi.org/10.2196/23465)
+* *Taewan Kim, and Hwajung Hong* - **Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-related Problems on Social Network Sites: Online Survey and Interview Study** - Journal of Medical Internet Research - Mental Health 2021 - [DOI](https://mental.jmir.org/2021/10/e23465), [PDF](https://drive.google.com/file/d/1B2vgjTg_vcBWFLYmOw4jZRiruMQkMwR9/view?usp=sharing)
 
 * *Taewan Kim, Mintra Ruensuk, and Hwajung Hong* - **In Helping a Vulnerable Bot, You Help Yourself: Designing a Social Bot as a Care-Receiver to Promote Mental Health and Reduce Stigma** - ACM CHI 2020 - [DOI](https://dl.acm.org/doi/abs/10.1145/3313831.3376743), [PDF](https://drive.google.com/file/d/1Mybrw_6DC98xS6KXUR0lcbENucuWuM3J/view)
 
