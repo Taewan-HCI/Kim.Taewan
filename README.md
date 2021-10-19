@@ -8,7 +8,8 @@
 
 * **Algorithmic user experience (Human-AI interaction)**
   * Studies on exploring and understanding the algorithmic user experiences.
-  * Studies on designing interactive systems for mental & physical wellbeing.
+  * Studies on designing everyday algorithmic user Experience.
+
 * **Interactive system for mental & physical wellbeing**
   * Studies for understanding how people use technology for their mental & physical well-being
   * Studies focusing on designing interactive systems for mental & physical wellbeing
