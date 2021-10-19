@@ -33,6 +33,8 @@ In this study, we proposed a Facebook-based social bot displaying depressive sym
 
 > by Taewan Kim, and Hwajung Hong
 
+![sns](./img/sns_1.jpeg)
+
 **Keywords: mental health, social media, social support, peers, peer support, self- disclosure**
 
 College students are at a vulnerable age; among those with serious mental health problems, this period is frequently when the first episodes appear. As a result, college students are increasingly disclosing their vulnerable, stigmatized experiences on social networking sites (SNSs). Understanding students’ perceptions and attitudes toward their peers who are dealing with mental health problems is vital to the efforts to eliminate peer exclusion and foster social support. In this paper, we investigate how students recognize, perceive, and react to peers who display mental health related challenges on SNSs in South Korea, where young adults are the age group that is most at risk for suicide. We discuss design implications for SNSs that would help platforms facilitate support exchanges among peers.
