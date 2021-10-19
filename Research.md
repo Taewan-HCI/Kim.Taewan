@@ -33,7 +33,7 @@ In this study, we proposed a Facebook-based social bot displaying depressive sym
 
 > by Taewan Kim, and Hwajung Hong
 
-![sns](./img/sns_1.jpeg)
+![sns](./img/sns_1.jpg)
 
 **Keywords: mental health, social media, social support, peers, peer support, self- disclosure**
 
