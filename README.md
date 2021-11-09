@@ -2,7 +2,7 @@
 
 ## 👋 Hi there 
 
-**I’m a Ph.D. student studying Human-computer Interaction (HCI)** at [KAIST](https://kaist.ac.kr), advised by Prof. [Hwajung Hong](https://hwajunghong.com), as a member of DxD (data interaction design) Lab.
+**I’m a Ph.D. student studying Human-computer Interaction (HCI)** at [KAIST](https://kaist.ac.kr), advised by Prof. [Hwajung Hong](https://hwajunghong.com), as a member of [DxD (data interaction design) Lab](https://url.kr/79wt13).
 
 **My research interests are**
 
@@ -12,7 +12,7 @@
 
 * **Interactive system for mental & physical wellbeing**
   * Studies for understanding how people use technology for their mental & physical well-being
-  * Studies focusing on designing interactive systems for mental & physical wellbeing
+  * Studies on designing interactive systems for mental & physical wellbeing
 
 ### 📨 Contact
 * [taewan@kaist.ac.kr](taewan@kaist.ac.kr)
