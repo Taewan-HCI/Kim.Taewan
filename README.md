@@ -23,7 +23,8 @@
 * [CV (PDF)](https://docs.google.com/document/d/1yXGqH-5m_nmuY8agUt8ZRjm9OMJkHZ6mCCRtHj4LB2Y/edit?usp=sharing)
 
 ### 📚Publication
-## Journal Articles / Conference Proceedings (Peer-Reviewed)
+
+Journal Articles / Conference Proceedings (Peer-Reviewed)
 
 * *Taewan Kim, and Hwajung Hong* - **Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-related Problems on Social Network Sites: Online Survey and Interview Study** - JMIR Mental Health 2021 - [DOI](https://mental.jmir.org/2021/10/e23465), [PDF](https://drive.google.com/file/d/1B2vgjTg_vcBWFLYmOw4jZRiruMQkMwR9/view?usp=sharing)
 
@@ -31,7 +32,7 @@
 
 * *Taewan Kim, James Andrew Self, and Hwajung Hong* - **Design Constraints and Their Influence upon Design Outcome** - Archives of Design Research 2018 - [DOI](https://doi.org/10.15187/adr.2018.11.31.4.23), [PDF](https://drive.google.com/file/d/14Bx8AF0Dts-Qta02l5SBD2ZOmWnF3dpl/view)
 
-## Extended Abstracts, Position Paper, Poster (Lightly Peer-Reviewed)
+Extended Abstracts, Position Paper, Poster (Lightly Peer-Reviewed)
 
 * *Youjin Hwang, Taewan Kim, Junhan Kim, Joonhwan Lee, and Hwajung Hong* - **Leveraging challenges of an algorithm-based symptom checker on user trust through explainable AI** - ACM CHI 2021 Workshop on Realizing AI in Healthcare: Challenges Appearing in the Wild - [PDF](https://drive.google.com/file/d/1Y2KLQmBRPKBEos1QYcaneLPwmISeb5-N/view)
 
