@@ -2,7 +2,7 @@
 
 ## 📚 Publication
 
-### Journal Articles / Conference Proceedings (Peer-Reviewed)
+### Journal Articles / Conference Papers (Peer-Reviewed)
 
 * *Taewan Kim, and Hwajung Hong* - **Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-related Problems on Social Network Sites: Online Survey and Interview Study** - JMIR Mental Health 2021 - [DOI](https://mental.jmir.org/2021/10/e23465), [PDF](https://drive.google.com/file/d/1B2vgjTg_vcBWFLYmOw4jZRiruMQkMwR9/view?usp=sharing)
 
