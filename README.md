@@ -2,7 +2,7 @@
 
 ## 👋 Hi there 
 
-**I’m a Ph.D. student studying Human-computer Interaction (HCI)** at [KAIST](https://kaist.ac.kr), advised by Prof. [Hwajung Hong](https://hwajunghong.com), as a member of [DxD (data interaction design) Lab](https://url.kr/79wt13).
+I'm Taewan Kim, a Ph.D. student in Industrial Design at KAIST, advised by Prof. [Hwajung Hong](https://hwajunghong.com). My research focuses on designing everyday human-AI interaction with a human-centered design approach. I create artifacts, methodologies, and frameworks to inspire meaningful and enjoyable interaction design for people. Prior to entering KAIST, I received his M.E in Creative Design Engineering from the UNIST where I was advised by Prof. Hwajung Hong. I also hold a B.S in Industrial Design from Handong University.
 
 **My research interests are**
 
