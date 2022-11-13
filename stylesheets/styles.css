@@ -103,9 +103,12 @@ img {
   max-width:100%;
 }
 
+img1 {
+  max-width:80%;
+}
 
 header {
-  width:250px;
+  width:270px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
