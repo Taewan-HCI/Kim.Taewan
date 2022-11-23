@@ -34,13 +34,14 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Analytics
+  # Analytics
 analytics:
   provider               : "google-gtag" 
                           # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : "G-2QXL4Q9EDY"
     anonymize_ip         : # true, false (default) 
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
