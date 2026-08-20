@@ -98,10 +98,7 @@ strong { font-weight: 500; color: var(--text); }
   align-items: start;
 }
 
-.col-left {
-  position: sticky;
-  top: calc(var(--nav-h) + 32px);
-}
+.col-left { }
 
 .col-right { min-width: 0; }
 
@@ -127,6 +124,13 @@ strong { font-weight: 500; color: var(--text); }
   margin-bottom: 24px;
 }
 
+.hero-phd {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--sub);
+  letter-spacing: -0.01em;
+}
+
 .hero-bio {
   font-size: 14px;
   color: var(--sub);
@@ -137,23 +141,36 @@ strong { font-weight: 500; color: var(--text); }
 
 .hero-links {
   display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hero-email {
+  font-size: 13px;
+  color: var(--sub);
+  transition: color 0.1s;
+}
+.hero-email:hover { color: var(--text); }
+
+.hero-link-row {
+  display: flex;
   gap: 0;
 }
 
-.hero-links a {
+.hero-link-row a {
   font-size: 13px;
   color: var(--muted);
-  padding-right: 16px;
-  margin-right: 16px;
+  padding-right: 14px;
+  margin-right: 14px;
   border-right: 1px solid var(--border);
   transition: color 0.1s;
 }
-.hero-links a:last-child {
+.hero-link-row a:last-child {
   border-right: none;
   margin-right: 0;
   padding-right: 0;
 }
-.hero-links a:hover { color: var(--text); }
+.hero-link-row a:hover { color: var(--text); }
 
 /* ─── Section label ──────────────────────────────── */
 .section-label {
@@ -235,7 +252,7 @@ strong { font-weight: 500; color: var(--text); }
   letter-spacing: -0.01em;
 }
 .research-card {
-  padding: 24px 0;
+  padding: 20px 0 24px;
   border-bottom: 1px solid var(--border);
 }
 .research-card:first-of-type {
@@ -262,7 +279,8 @@ strong { font-weight: 500; color: var(--text); }
   line-height: 1;
 }
 .research-card:hover h3 { color: var(--accent); }
-.research-card:hover h3::after {
+.research-card.open h3 { color: var(--accent); }
+.research-card.open h3::after {
   content: '−';
   color: var(--accent);
   transform: scale(1.3);
@@ -273,7 +291,7 @@ strong { font-weight: 500; color: var(--text); }
   grid-template-rows: 0fr;
   transition: grid-template-rows 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
-.research-card:hover .research-reveal {
+.research-card.open .research-reveal {
   grid-template-rows: 1fr;
 }
 
@@ -283,7 +301,7 @@ strong { font-weight: 500; color: var(--text); }
   transform: translateY(6px);
   transition: opacity 0.3s ease 0.1s, transform 0.3s ease 0.1s;
 }
-.research-card:hover .research-reveal-inner {
+.research-card.open .research-reveal-inner {
   opacity: 1;
   transform: translateY(0);
 }
@@ -424,6 +442,7 @@ a.paper-tag:hover {
   transition: color 0.15s;
 }
 .demo-card:hover .demo-arrow { color: var(--text); }
+.research-card.open .demo-arrow { color: var(--text); }
 
 /* ─── Publications ───────────────────────────────── */
 .publications-section {
@@ -521,6 +540,93 @@ a.paper-tag:hover {
   transition: color 0.1s;
 }
 .pub-more:hover { color: var(--text); }
+
+/* ─── CV (Experience & Education) ────────────────── */
+.cv-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-item {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  gap: 16px;
+  align-items: start;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+  cursor: default;
+}
+.cv-item:first-child { border-top: 1px solid var(--border); }
+
+.cv-year {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  white-space: nowrap;
+  padding-top: 3px;
+}
+
+.cv-body { min-width: 0; }
+
+.cv-role {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--sub);
+  line-height: 1.4;
+}
+
+.cv-org {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  margin-bottom: 2px;
+}
+
+.cv-note {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--muted);
+  letter-spacing: 0.03em;
+}
+
+.cv-item .cv-reveal {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.cv-item:hover .cv-reveal {
+  grid-template-rows: 1fr;
+}
+
+.cv-item .cv-reveal-inner {
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: opacity 0.25s ease 0.08s, transform 0.25s ease 0.08s;
+}
+.cv-item:hover .cv-reveal-inner {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.cv-bullets {
+  list-style: none;
+  padding: 6px 0 2px;
+}
+.cv-bullets li {
+  font-size: 12px;
+  color: var(--sub);
+  line-height: 1.6;
+  padding-left: 12px;
+  position: relative;
+  margin-bottom: 3px;
+}
+.cv-bullets li::before {
+  content: '·';
+  position: absolute;
+  left: 0;
+  color: var(--muted);
+}
 
 /* ─── Footer ─────────────────────────────────────── */
 .site-footer {

@@ -46,12 +46,16 @@
     <!-- ── Hero ─────────────────────────────────────── -->
     <section id="home" class="hero">
         <div class="hero-eyebrow">HCI Research Scientist · TwelveLabs</div>
-        <h1 class="hero-name">Taewan Kim</h1>
+        <h1 class="hero-name">Taewan Kim<span class="hero-phd">, Ph.D.</span></h1>
         <p class="hero-bio">HCI researcher specializing in human-AI interaction and AI-driven service design, with industry experience at TwelveLabs, Samsung Electronics, and NAVER AI Lab. Ph.D. from KAIST. Publications at CHI, CSCW, and DIS.</p>
         <div class="hero-links">
-            <a href="mailto:twkim24@gmail.com">twkim24@gmail.com</a>
-            <a href="https://github.com/Taewan-HCI" target="_blank">GitHub</a>
-            <a href="https://github.com/Taewan-HCI/Kim.Taewan/raw/main/img/TaewanKim_CV_Apr2026.pdf" target="_blank">CV</a>
+            <a href="mailto:twkim24@gmail.com" class="hero-email">twkim24@gmail.com</a>
+            <div class="hero-link-row">
+                <a href="https://github.com/Taewan-HCI" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/twkim24/" target="_blank">LinkedIn</a>
+                <a href="https://scholar.google.com/citations?user=1OB4lOYAAAAJ&hl=ko" target="_blank">Scholar</a>
+                <a href="https://github.com/Taewan-HCI/Kim.Taewan/raw/main/img/TaewanKim_CV_Apr2026.pdf" target="_blank">CV</a>
+            </div>
         </div>
     </section>
 
@@ -141,6 +145,109 @@
         </div>
     </section>
 
+    <!-- ── Experience ───────────────────────────────── -->
+    <section class="cv-section" style="margin-top: 48px;">
+        <h2 class="section-label">Experience</h2>
+        <div class="cv-list">
+
+            <div class="cv-item">
+                <time class="cv-year">2025–</time>
+                <div class="cv-body">
+                    <div class="cv-org">TwelveLabs</div>
+                    <div class="cv-role">HCI Research Scientist</div>
+                    <div class="cv-reveal">
+                        <div class="cv-reveal-inner">
+                            <ul class="cv-bullets">
+                                <li>Human-AI interaction research on multimodal AI agents for video exploration, analysis, and creation.</li>
+                                <li>Designing interaction paradigms for AI-driven video analysis and creation tools, bridging interaction design and AI model development.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-item">
+                <time class="cv-year">2023–25</time>
+                <div class="cv-body">
+                    <div class="cv-org">Samsung Electronics</div>
+                    <div class="cv-role">Senior Designer</div>
+                    <div class="cv-reveal">
+                        <div class="cv-reveal-inner">
+                            <ul class="cv-bullets">
+                                <li>AI Creator in Samsung's generative AI design program, sharing AI-driven practices across the organization.</li>
+                                <li>Explored how generative AI can augment early-stage UX design through synthetic persona-based user studies.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-item">
+                <time class="cv-year">2023</time>
+                <div class="cv-body">
+                    <div class="cv-org">NAVER AI Lab</div>
+                    <div class="cv-role">Research Intern</div>
+                    <div class="cv-reveal">
+                        <div class="cv-reveal-inner">
+                            <ul class="cv-bullets">
+                                <li>Led research on large language models for mental health support contexts.</li>
+                                <li>Designed and evaluated multimodal AI interfaces through user-centered research methods.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ── Education ────────────────────────────────── -->
+    <section class="cv-section" style="margin-top: 32px;">
+        <h2 class="section-label">Education</h2>
+        <div class="cv-list">
+
+            <div class="cv-item">
+                <time class="cv-year">2021–25</time>
+                <div class="cv-body">
+                    <div class="cv-org">KAIST</div>
+                    <div class="cv-role">Ph.D. in Industrial Design</div>
+                    <div class="cv-reveal">
+                        <div class="cv-reveal-inner">
+                            <ul class="cv-bullets">
+                                <li>Advisor: Hwajung Hong</li>
+                                <li>Dissertation: Designing for Mental Wellbeing: Exploring the Role of AI for Reflective Practice</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cv-item">
+                <time class="cv-year"></time>
+                <div class="cv-body">
+                    <div class="cv-org">Seoul National University <span class="cv-note">transferred</span></div>
+                    <div class="cv-role">Ph.D. Candidate, Cognitive Science</div>
+                </div>
+            </div>
+
+            <div class="cv-item">
+                <time class="cv-year">2019–21</time>
+                <div class="cv-body">
+                    <div class="cv-org">UNIST</div>
+                    <div class="cv-role">M.S. in Creative Design Engineering</div>
+                </div>
+            </div>
+
+            <div class="cv-item">
+                <time class="cv-year">2015–19</time>
+                <div class="cv-body">
+                    <div class="cv-org">Handong University</div>
+                    <div class="cv-role">B.S. in Product Design</div>
+                </div>
+            </div>
+
+        </div>
+    </section>
 
 </div><!-- /col-left -->
 <div class="col-right">
@@ -501,6 +608,15 @@
   init();
   tick();
 })();
+
+// ── Research card toggle ──────────────────────────
+document.querySelectorAll('.research-card').forEach(card => {
+    card.addEventListener('click', e => {
+        // demo-card 링크 클릭은 토글하지 않음
+        if (e.target.closest('.demo-card') || e.target.closest('a.paper-tag')) return;
+        card.classList.toggle('open');
+    });
+});
 
 // ── News toggle ───────────────────────────────────
 function toggleNews(btn) {
