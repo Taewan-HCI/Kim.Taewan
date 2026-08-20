@@ -1,347 +1,522 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-2QXL4Q9EDY"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
+        function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-
         gtag('config', 'G-2QXL4Q9EDY');
     </script>
 
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Taewan Kim</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+
 </head>
 <body>
-<div class="wrapper">
-    <header>
-        <img class="fit-picture"
-             src="https://avatars.githubusercontent.com/u/43331300?v=4" width="220">
-        <a href="https://taewankim.io"><h1>Taewan Kim, PhD</h1></a>
 
-        <a href="#home"><h2>About me</h2></a>
-        <a href="#research"><h2>Recent Projects</h2></a>
-        <a href="#publications"><h2>Publications</h2></a>
-        <a href="https://github.com/Taewan-HCI/Kim.Taewan/raw/main/img/TaewanKim_CV_Apr2026.pdf" download><h2>CV</h2>
-        </a>
+<canvas id="bg-canvas"></canvas>
 
-        <br>
+<!-- ── Navigation ─────────────────────────────────── -->
+<nav class="top-nav">
+    <div class="nav-inner">
+        <a href="#home" class="nav-brand">Taewan Kim</a>
+        <div class="nav-links">
+            <a href="#home">About</a>
+            <a href="#research">Research</a>
+            <a href="#publications">Publications</a>
+            <a href="https://github.com/Taewan-HCI/Kim.Taewan/raw/main/img/TaewanKim_CV_Apr2026.pdf" target="_blank">CV</a>
+        </div>
+    </div>
+</nav>
 
-        <b>HCI Research Scientist</b>
-        <p>TwelveLabs<br>
-<!--             <small>Seoul R&D Campus, 33 Seoungchon-Gil,Seocho-Gu, Seoul 06765, Korea</small><br> -->
-            <a href="mailto:twkim24@gmail.com">twkim24@gmail.com</a>, <a
-                    href="https://github.com/Taewan-HCI">GitHub</a></p>
+<main class="container">
+<div class="layout">
+<div class="col-left">
 
-    </header>
-    <section>
-        <a name="home"><h1>👋 Hi there </h1></a>
-        
+    <!-- ── Hero ─────────────────────────────────────── -->
+    <section id="home" class="hero">
+        <div class="hero-eyebrow">HCI Research Scientist · TwelveLabs</div>
+        <h1 class="hero-name">Taewan Kim</h1>
+        <p class="hero-bio">HCI researcher specializing in human-AI interaction and AI-driven service design, with industry experience at TwelveLabs, Samsung Electronics, and NAVER AI Lab. Ph.D. from KAIST. Publications at CHI, CSCW, and DIS.</p>
+        <div class="hero-links">
+            <a href="mailto:twkim24@gmail.com">twkim24@gmail.com</a>
+            <a href="https://github.com/Taewan-HCI" target="_blank">GitHub</a>
+            <a href="https://github.com/Taewan-HCI/Kim.Taewan/raw/main/img/TaewanKim_CV_Apr2026.pdf" target="_blank">CV</a>
+        </div>
+    </section>
 
-
-        <p>
-        HCI researcher specializing in human-AI interaction and AI-driven service design, with industry experience at Twelvelabs, Samsung Electronics, and NAVER AI Lab. I earned my Ph.D. from KAIST, where I investigated how foundation models such as large language models and multimodal AI can be applied to real-world services in healthcare, mental wellbeing, and content creation. My work bridges user-centered research, system prototyping, and deployed AI applications, with publications in top venues such as CHI, CSCW, and DIS.
-</p>
-
-<!--, focusing on designing systems that support collaboration between people and AI.-->
-<!-- 
-
-        My name is <b>Taewan Kim</b>, and I am a designer & researcher at Samsung Electronics (Coporate Design Center) where I integrate generative AI into the design processes for enhancing creativity and productivity.
-
-        As a researcher in Human-Computer Interaction (HCI) with a design background, I explore Human-AI Interaction (HAII), grounded in a deep understanding of people. My research focuses on collaborative approaches between humans and AI to enhance mental health, particularly through reflective practices that foster self-awareness and address a range of conditions from everyday stress to clinical psychiatric disorders.
-
-        I obtained my Ph.D. from the Department of Industiral Design speicialized in Human-Computer Intearction at KAIST, advised by Prof. <a href="https://www.notion.so/2021dt4c/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"><b>Hwajung Hong</b></a>.
-
-        </p> -->
-<!-- 
-
-        Ph.D. candidate in the Department of Industrial Design at <b>KAIST</b>, advised by Prof. <a href="https://www.notion.so/2021dt4c/Hwajung-Hong-cc10b0291bbe4ca38dbf4882cd687423"><b>Hwajung Hong</b></a>. I am currently a member of the <a href="https://dxd-lab.github.io/"><b>DxD Lab</b></a>. Before joining KAIST, I completed my M.E. in Creative Design Engineering from UNIST and my B.S. in Industrial Design from Handong University.</p>
-
-        <p>As a researcher in <b>Human-Computer Interaction (HCI)</b> with a design background, my focus is on <b>Human-Centered AI Interaction</b> design. My approach revolves around understanding people's needs deeply, with a special emphasis on creating AI systems that foster mental well-being. The work I have contributed has been presented at renowned HCI conferences such as ACM <b>CHI, CSCW,</b> and <b>DIS</b>.</p>
-
-        <p>By combining my strengths in <b>Mixed-method research</b> and <b>Human-centered design</b>, I develop artifacts, methodologies, and frameworks that inspire meaningful and positive algorithmic experiences for both HCI researchers and practitioners.</p> -->
-
-          <!-- <p>Currently, my research explores the role of <b>Large Language Models (LLM)</b> in fostering reflective behaviors among individuals. I am particularly interested in leveraging LLMs to support self-reflection and mental well-being.</p> -->
-<!--        Specifically, I focus on designing AI systems to support peoples’ self-reflection for <u>mental health</u>.-->
-
-<!--        <p>Recently, I investigated exploiting prediction algorithms and explainability that facilitate self-reflection-->
-<!--            for the mental-wellbeing (<a href="https://doi.org/10.1145/3491102.3517701">Accepted to CHI 2022</a>). I-->
-<!--            also explored design space of human-social bot interaction for assisting users on revisit their past-->
-<!--            experiences by support-giving experience with the bot (<a-->
-<!--                    href="https://dl.acm.org/doi/abs/10.1145/3313831.3376743">Accepted to CHI 2020</a>).</p>-->
-
-<!-- Specifically, my work aims to design AI systems that support mental well-being. My research approach involves 1) designing research artifacts that enable the exploration of human-AI interaction (HAI) design opportunities, and 2) extracting empirical findings through in-the-wild studies that help us understand the impact of these systems on people's behavior and cognition.  -->
-
-        <!-- <p><i><b>I'm actively seeking a new opportunity</b></i></p> -->
-
-        <b>📰 News</b><br>
-        <u>June, 2025</u>: I joined <b>Twelve Labs</b> as an HCI Research Scientist, focusing on human-AI interaction and multimodal video understanding 🎥🤝<br>
-        <u>Jan, 2025</u>: Our paper on exploring design spaces to facilitate household collaboration has been accepted to CHI 2025 🎉<br>
-        <u>Apr, 2024</u>: Invited talk at Korean Neuropsychiatric Association Spring Conference 🎙<br>
-        <u>Mar, 2024</u>: Our two papers have been accepted to CHI 2024 Workshop on on Human-centered Evaluation and Auditing of Language Models (HEAL) 🎉<br>
-
-        <div>
-            <a href=#none id="show"
-               onclick="if(hide.style.display=='none') {hide.style.display='';show.innerText='▲Close'} else {hide.style.display='none';show.innerText='▶See all updates'}">▶See
-                all updates</a>
-            <div id="hide" style="display: none">
-                        <u>Mar, 2024</u>: Our DIS 2024 paper on LLM for research promotion has been accepted 🔬 <br>
-        <u>Feb, 2024</u>: Invited talk at Korean Neuropsychiatric Association Jeonbuk Branch 🎙 <br>
-        <u>Jan, 2024</u>: Two first-authored papers on LLMxWell-being have been accepted to CHI 2024 🎉<br>
-                <u>Jul, 2023</u>: Invited talk at HAI LAB seminar at SEOULTECH 🎙 <br>
-        <u>Apr, 2023</u>: Panel talk at NAVER UX Designer Workshop 🎤 <br>
-        <u>Apr, 2023</u>: Attending CHI 2023 in-person 🇩🇪️ <br>
-        <u>Jan, 2023</u>: Internship at NAVER AI Lab, working with <a href="http://younghokim.net/">Dr. Young-Ho Kim</a> 🏢 <br>
-        <u>Oct, 2022</u>: Invited talk at NAVER AI Lab 🎙 <br>
-        <u>Sep, 2022</u>: <a href="https://dl.acm.org/doi/abs/10.1145/3491102.3517701">MindScope</a> has been featured
-        in <a href="https://breakthroughs.kaist.ac.kr/?post_no=2261">KAIST breakthroughs</a> 📰<br>
-                <u>Sep, 2021</u>: I moved to Daejeon for starting a Ph.D. course in ID KAIST 🚚 <br>
-                <u>Aug, 2021</u>: Our paper on understanding mental health disclosure on SNS has been accepted to JMIR
-                Mental Health 📚<br>
-                <u>Mar, 2021</u>: Our position paper investigating algorithmic experience on symptom checkers has been
-                accepted to CHI 2021 Workshop on Realizing AI in Healthcare <br>
-                <u>Feb, 2022</u>: Our two CHI2022 papers have been conditionally accepted! 🎉<br>
-                <u>Jan, 2022</u>: A paper Prof. Jennifer G. Kim led, and I co-authored was accepted to CSCW2022! 🎊<br>
+    <!-- ── News ─────────────────────────────────────── -->
+    <section class="news-section">
+        <h2 class="section-label">News</h2>
+        <div class="news-list">
+            <div class="news-item">
+                <time class="news-date">Jul 2026</time>
+                <p class="news-text"><a href="https://www.twelvelabs.io/jockey" target="_blank"><strong>Jockey Research Preview</strong></a> publicly launched — I contributed the interaction language design for video AI interaction.</p>
+            </div>
+            <div class="news-item">
+                <time class="news-date">Feb 2026</time>
+                <p class="news-text">Paper on LLM-generated patient-friendly clinical notes published in <strong>Scientific Reports</strong>.</p>
+            </div>
+            <div class="news-item">
+                <time class="news-date">Jun 2025</time>
+                <p class="news-text">Joined <strong>Twelve Labs</strong> as an HCI Research Scientist, focusing on human-AI interaction and multimodal video understanding.</p>
+            </div>
+            <div class="news-item">
+                <time class="news-date">Jan 2025</time>
+                <p class="news-text">Paper on exploring design spaces to facilitate household collaboration accepted to <strong>CHI 2025</strong>.</p>
+            </div>
+            <div class="news-item">
+                <time class="news-date">Apr 2024</time>
+                <p class="news-text">Invited talk at Korean Neuropsychiatric Association Spring Conference.</p>
+            </div>
+            <div class="news-item">
+                <time class="news-date">Mar 2024</time>
+                <p class="news-text">Two papers accepted to <strong>CHI 2024</strong> Workshop on Human-centered Evaluation and Auditing of Language Models (HEAL).</p>
             </div>
         </div>
-        <br><br>
-        <hr>
 
-        <a name="research"><h1>🗂 Research Topics</h1></a>
+        <button class="news-toggle-btn" onclick="toggleNews(this)" aria-expanded="false">▸ See all updates</button>
 
-        <p><b>Large Language Models for Mental Well-being: Facilitating Self-Reflection through Human-AI Collaboration</b></p>
-        <img class="fit-picture"
-             src="https://github.com/Taewan-HCI/Kim.Taewan/blob/main/img/topic_1.png?raw=true">
-        <p>My research focuses on using Large Language Models (LLMs) to help people reflect on their thoughts and feelings through journaling. Projects like MindfulDiary and DiaryMate investigate how AI can be used safely and effectively in mental health settings. We work with mental health professionals to ensure our approaches are both meaningful and safe, aiming to improve the way people use journaling for mental well-being with the help of AI.<br><a href="https://dl.acm.org/doi/full/10.1145/3613904.3642937">MindfulDiary (CHI '24)</a> | <a href="https://dl.acm.org/doi/full/10.1145/3613904.3642693">DiaryMate (CHI '24)</a> | <a href="https://drive.google.com/file/d/1EIT-HREGqTaRMQ1lJE2qpkQBG7frec8p/view?usp=sharing">Evaluating and Auditing LLM-Driven Chatbots for Psychiatric Patients (CHI '24 Workshop on HEAL)</a>
-        </p>
-        <br>
-
-        <p><b>Virtual Reality for Neurodivergent Individuals: Empowering Autistic Individuals by Enhancing Their Self-advocacy and Agency in the Workplace</b></p>
-        <img class="fit-picture"
-             src="https://github.com/Taewan-HCI/Kim.Taewan/blob/main/img/topic_2.png?raw=true">
-        <p>Virtual Reality (VR) provides various opportunities for neurodivergent individuals to improve their quality of
-            life. key aspect of this research is utilizing VR and AI to empower autistic individuals by enhancing their self-advocacy and agency in the workplace, rather than attempting to correct their behaviors.<br><a href="https://dl.acm.org/doi/10.1145/3555082">
-                The Workplace Playbook VR (CSCW '22)</a> | <a href="https://dl.acm.org/doi/10.1145/3562939.3565608">VISTA (VRST '22)</a>
-        </p>
-        <br>
-
-        <p><b>Digital Mental Health: Innovative Approaches to Managing Mental Well-being</b></p>
-        <img class="fit-picture"
-             src="https://github.com/Taewan-HCI/Kim.Taewan/blob/main/img/topic_3.png?raw=true">
-        <p>In the field of Digital Mental Health, my research focuses on new methods for improving mental well-being. I developed MindScope, a system that uses algorithms to monitor stress levels from daily activities captured by smartphones, helping users understand and manage their stress better. Additionally, I designed a social bot that acts as a care receiver, exploring how interactions with this bot can help people reflect on past experiences and reduce mental health stigma.<br><a href="https://dl.acm.org/doi/abs/10.1145/3491102.3517701">MindScope: Prediction for Reflection (CHI'22)</a> | <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376743">Gloomy: Social Bot as a Care-Receiver (CHI'20)</a></p>
-        <br>
-        
-        <!-- <p><b>Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental
-            Health-related Problems on Social Network Sites</b></p>
-        <img class="fit-picture"
-             src="https://github.com/Taewan-HCI/Kim.Taewan/blob/main/img/jmir.jpg?raw=true"
-             alt="Grapefruit slice atop a pile of other slices">
-        <p>In this paper, we investigate how students recognize, perceive, and react to peers who display mental health
-            related challenges on SNSs in South Korea, where young adults are the age group that is most at risk for
-            suicide. We discuss design implications for SNSs that would help platforms facilitate support exchanges
-            among peers.<br><a href="https://mental.jmir.org/2021/10/e23465">JMIR Mental Health 2021 Paper</a></p>
-        <br> -->
-
-       <!--  <p><b>Understanding Algorithmic User Experience of Symptom Checker</b></p>
-        <img class="fit-picture"
-             src="https://github.com/Taewan-HCI/Kim.Taewan/blob/main/img/symptom.png?raw=true"
-             alt="Grapefruit slice atop a pile of other slices">
-        <p>An algorithm-based symptom checker is a service that predicts and informs the expected disease name based on
-            the symptoms entered by users and informs the user of actions to be taken afterward. In this study, we
-            conduct an empirical study defining challenges that prevent user trust toward algorithm-based symptom
-            checkers.<br><a href="https://drive.google.com/file/d/1Y2KLQmBRPKBEos1QYcaneLPwmISeb5-N/view?usp=sharing">ACM
-                CHI2021 Workshop position paper</a></p>
-        <br> -->
-
-       <!--  <p><b>Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions</b></p>
-        <img class="fit-picture"
-             src="https://github.com/Taewan-HCI/Kim.Taewan/blob/main/img/calmstation.png?raw=true"
-             alt="Grapefruit slice atop a pile of other slices">
-        <p>In this work, we present Calm Station, an interactive desk object which generate dynamic motions of a metal
-            marble on a wooden tray. Calm Station is designed to convey daily notifications with abstract, poetic
-            movements.<br><a href="https://doi.org/10.1145/3064857.3079183">ACM DIS2018 Demo</a>, <a
-                    href="https://youtu.be/gCBQhNUlmzo">Video</a></p>
-        <br> -->
-
-      <!--   <p><b>FamCom: A Communication Service Enhancing Conversation Quality Between Elders Residing in Care Hospital
-            and Their Family Member</b></p>
-        <img class="fit-picture"
-             src="https://github.com/Taewan-HCI/Kim.Taewan/blob/main/img/famcom.png?raw=true"
-             alt="Grapefruit slice atop a pile of other slices">
-         -->
-                
-        
-        <hr>
-        <a name="publications"><h1>📚 Publications</h1></a>
-
-        <h2>Journal & Conference Papers (Peer-Reviewed)</h2>
-
-        <p><b>Enhancing Patient Participation in Emergency Department through Patient-Friendly Clinical Notes Generated by Large Language Models</b><br>
-            Sung-In Kim, Joonyoung Park, <u>Taewan Kim</u>, Wooseok Seo, Tae Rim Kim, Won Chul Cha, Hwajung Hong<br>
-            Scientific Reports 2026 - <a
-                    href="https://www.nature.com/articles/s41598-025-31113-y">Link</a>
-        </p>
-
-        <p><b>Exploring Design Spaces to Facilitate Household Collaboration for Cohabiting Couples</b><br>
-            Gahyeon Bae, Seo Kyoung Park, <u>Taewan Kim</u> and Hwajung Hong<br>
-            ACM CHI 2025 - <a
-                    href="https://dl.acm.org/doi/10.1145/3706598.3713383">Open Access</a>
-        </p>
-
-        <p><b>MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling</b><br>
-            <u>Taewan Kim</u>, Seolyeong Bae, Hyun AH Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang and Young-Ho Kim<br>
-            ACM CHI 2024 - <a
-                    href="https://dl.acm.org/doi/full/10.1145/3613904.3642937">Open Access</a>
-        </p>
-
-        <p><b>DiaryMate: Understanding User Perceptions and Experience in Human-AI Collaboration for Personal Journaling</b><br>
-            <u>Taewan Kim</u>, Donghoon Shin, Young-Ho Kim and Hwajung Hong<br>
-            ACM CHI 2024 - <a
-                    href="https://dl.acm.org/doi/full/10.1145/3613904.3642693">Open Access</a>
-        </p>
-
-        <p><b>Co-Creating Question-and-Answer Style Articles with Large Language Models for Research Promotion</b><br>
-            Hyunseung Lim, Ji Yong Cho, <u>Taewan Kim</u>, Jeongeon Park, Hyungyu Shin, Seulgi Choi, Sunghyun Park, Kyungjae Lee, Juho Kim, Moontae Lee and Hwajung Hong<br>
-            ACM DIS 2024 - <a
-                    href="https://dl.acm.org/doi/10.1145/3643834.3660705">Open Access</a>
-        </p>
-
-        <p><b>Promoting Self-Efficacy of Individuals with Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: A Feasibility Study</b><br>
-            Sung-In Kim, So-youn Jang, <u>Taewan Kim</u>, Bogoan Kim, Dayoung Jeong, Taehyung Noh, Mingon Jeong, Kaely Hall, Meelim Kim, Hee Jeong Yoo, Kyungsik Han, Hwajung Hong and Jennifer G. Kim<br>
-            JMIR Formative Research 2024 - <a href="https://formative.jmir.org/2024/1/e52157">Open Access</a>
-        </p>
-
-        <p><b>Prediction for Retrospection: Integrating Algorithmic Stress Prediction into Personal Informatics Systems
-            for College Students' Mental Health</b><br>
-            <u>Taewan Kim</u>, Haesoo Kim, Hayeon Lee, Hwarang Goh, Shakhboz Abdigapporov, Mingon Jeong, Hyunsung Cho,
-            Kyungsik Han, Youngtae Noh, Sung-Ju Lee and Hwajung Hong<br>
-            ACM CHI 2022 - <a href="https://doi.org/10.1145/3491102.3517701">Link</a>, <a
-                    href="https://drive.google.com/file/d/1rEv0pESDvZXClkWMz-y-BSI1lwGv2KlG/view?usp=sharing">PDF</a>
-        </p>
-
-        <p><b>Sad or just jealous? Using Experience Sampling to Understand and Detect Negative Affective Experiences on
-            Instagram</b><br>
-            Mintra Ruensuk, <u>Taewan Kim</u>, Hwajung Hong, and Ian Oakley<br>
-            ACM CHI 2022 - <a href="https://doi.org/10.1145/3491102.3517561">Link</a>, <a
-                    href="https://drive.google.com/file/d/1OKNsZTntRza6e1xYvPRdiNi9Ax3Sz5Or/view?usp=sharing">PDF</a>
-        </p>
-
-        <p><b>The Workplace Playbook VR: Exploring the Design Space of Virtual Reality to Foster Understanding and
-            Support of Autistic People in the Workplace</b><br>
-            Jennifer G. Kim, <u>Taewan Kim</u>, Sungin Kim, Soyeon Jang, Stephanie Lee, Heejung Yoo, Kyungsik Han, and
-            Hwajung Hong<br>
-            ACM CSCW 2022 - <a href="https://dl.acm.org/doi/10.1145/3555082">Link</a>, <a
-                    href="https://drive.google.com/file/d/1UK-8S3aiOHygc24T6rO-NccypzaBXIEF/view?usp=share_link">PDF</a>
-        </p>
-
-        <p><b>VISTA: Understanding Characteristics of Autistic People through a VR-based Interactive Social Skills
-            Training System</b><br>
-            Bogoan Kim, Dayoung Jeong, Mingon Jeong, Taehyung Noh, Sung-In Kim, <u>Taewan Kim</u>, So-youn Jang, Hee
-            Jeong Yoo, Jennifer G Kim, Hwajung Hong, and Kyungsik Han<br>
-            ACM VRST 2022 - <a href="https://dl.acm.org/doi/10.1145/3562939.3565608">Link</a>, <a
-                    href="https://drive.google.com/file/d/1lfrn-frQZB-BUJHw7ChmCDSjB0i3GKt2/view?usp=share_link">PDF</a>
-        </p>
-
-        <p><b>Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental
-            Health-related Problems on Social Network Sites: Online Survey and Interview Study</b><br>
-            <u>Taewan Kim</u>, and Hwajung Hong<br>
-            JMIR Mental Health 2021 - <a href="https://mental.jmir.org/2021/10/e23465">Open Access</a>, <a
-                    href="https://drive.google.com/file/d/1B2vgjTg_vcBWFLYmOw4jZRiruMQkMwR9/view?usp=sharing">PDF</a>
-        </p>
-
-        <p><b>In Helping a Vulnerable Bot, You Help Yourself: Designing a Social Bot as a Care-Receiver to Promote
-            Mental Health and Reduce Stigma</b><br>
-            <u>Taewan Kim</u>, Mintra Ruensuk, and Hwajung Hong<br>
-            ACM CHI 2020 - <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376743">Link</a>, <a
-                    href="https://drive.google.com/file/d/1Mybrw_6DC98xS6KXUR0lcbENucuWuM3J/view">PDF</a></p>
-
-        <p><b>Design Constraints and Their Influence upon Design Outcome</b><br>
-            <u>Taewan Kim</u>, James Andrew Self, and Hwajung Hong<br>
-            Archives of Design Research 2018 - <a href="https://doi.org/10.15187/adr.2018.11.31.4.23">Link</a>, <a
-                    href="https://drive.google.com/file/d/14Bx8AF0Dts-Qta02l5SBD2ZOmWnF3dpl/view">PDF</a></p>
-
-        <br>
-        <h2>Extended Abstracts & Position Paper (Lightly Peer-Reviewed)</h2>
-
-        <p><b>Evaluating and Auditing LLM-Driven Chatbots for Psychiatric Patients in Clinical Mental Health Settings</b><br>
-            <u>Taewan Kim</u>,Seolyeong Bae, Hyun AH Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang and Young-Ho Kim<br>
-            ACM CHI 2024 Workshop on on Human-centered Evaluation and Auditing of Language Models(HEAL) - <a
-                    href="https://drive.google.com/file/d/1EIT-HREGqTaRMQ1lJE2qpkQBG7frec8p/view?usp=sharing">PDF</a>
-        </p>
-
-        <p><b>Towards an Evaluation of LLM-Generated Inspiration by Developing and Validating Inspiration Scale</b><br>
-            Hyungyu Shin, Seulgi choi, Ji Yong Cho, Sahar Admoni, Hyunseung Lim, <u>Taewan Kim</u>, Hwajung Hong, Moontae Lee and Juho Kim<br>
-            ACM CHI 2024 Workshop on on Human-centered Evaluation and Auditing of Language Models(HEAL) - <a
-                    href="https://drive.google.com/file/d/1nC2woXhdodJMV9bkZgwZ4FuoqHSYBug9/view?usp=sharing">PDF</a>
-        </p>
-
-
-        <p><b>DiaryMate: Exploring the Roles of Large Language Models in Facilitating AI-mediated Journaling</b><br>
-            <u>Taewan Kim</u>, Donghoon Shin, Young-Ho Kim, and Hwajung Hong<br>
-            ACM CHI 2023 Workshop on Intelligent and Interactive Writing Assistants(In2Writing) - <a
-                    href="https://drive.google.com/file/d/1jpwrdTbpt7tcFTw6WET4Sb2KZoSC7eSH/view?usp=sharing">PDF</a>
-        </p>
-
-        <p><b>Designing a Personalized Stress Management System for Call Center Workers</b><br>
-            Kwangyoung Lee, Hyunseung Lim, Sooyeon Ahn, <u>Taewan Kim</u>, and Hwajung Hong<br>
-            IEEE 2023 International Conference on Big Data and Smart Computing (BIGCOMP) - <a
-                    href="https://ieeexplore.ieee.org/abstract/document/10066645">Link</a>
-        </p>
-
-        <p><b>Leveraging challenges of an algorithm-based symptom checker on user trust through explainable AI</b><br>
-            Youjin Hwang, <u>Taewan Kim</u>, Junhan Kim, Joonhwan Lee, and Hwajung Hong<br>
-            ACM CHI 2021 Workshop on Realizing AI in Healthcare: Challenges Appearing in the Wild - <a
-                    href="https://drive.google.com/file/d/1Y2KLQmBRPKBEos1QYcaneLPwmISeb5-N/view">PDF</a></p>
-
-        <p><b>질병의 자가 진단을 위한 알고리즘 기반 증상 확인 애플리케이션의 사용자 경험에 관한 탐색적 연구 (An exploratory study on the algorithm user
-            experience of a symptom checker application for self-diagnosis)</b><br>
-            <u>Taewan Kim</u>, Youjin Hwang, Junhan Kim, Joonhwan Lee, and Hwajung Hong<br>
-            The Proceedings of HCI KOREA 2021 - <a
-                    href="https://drive.google.com/file/d/1gG2XxffOtBx6ohDSFps8g2CNjHoY655q/view">PDF</a></p>
-
-        <p><b>Studying Students Experiencing Mental Health Problems</b><br>
-            <u>Taewan Kim</u>, and Hwajung Hong<br>
-            CSCW 2018 Workshop on Conducting Research with Stigmatized Populations - <a
-                    href="https://drive.google.com/file/d/1CHSTtNAiKYv0aA1ikpc4owbm_e_h2TzS/view">PDF</a></p>
-
-        <p><b>Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions</b><br>
-            <u>Taewan Kim</u>, Young-Woo Park, and Hwajung Hong<br>
-            ACM DIS 2017 DEMO - <a href="https://dl.acm.org/doi/10.1145/3064857.3079183">Link</a>, <a
-                    href="https://drive.google.com/file/d/1M6rPOFV3lEyjL5JPzq8seV9uUsFbycRH/view">PDF</a>, <a
-                    href="https://www.youtube.com/watch?v=gCBQhNUlmzo">Video</a></p>
-
-        <p><b>FamCom: A Communication Service Enhancing Conversation Quality Between Elders Residing in Care Hospital
-            and Their Family Member</b><br>
-            Mingu Kanng, <u>Taewan Kim</u>, Youngjae Kim, and Junghwan Ahn<br>
-            ACM CHI 2015 Student Design Competition - <a href="https://dl.acm.org/doi/10.1145/2702613.2726952">Link</a>,
-            <a href="https://dl.acm.org/doi/10.1145/2702613.2726952">PDF</a>, <a
-                    href="https://www.youtube.com/watch?v=hnQ5MZfrw60">Video</a></p>
-
-        <br>
-
-        <hr>
-        Copyright ©Taewan Kim
-
+        <div class="news-extra" id="news-extra" hidden>
+            <div class="news-list" style="margin-top:10px">
+                <div class="news-item">
+                    <time class="news-date">Mar 2024</time>
+                    <p class="news-text">DIS 2024 paper on LLM for research promotion accepted.</p>
+                </div>
+                <div class="news-item">
+                    <time class="news-date">Feb 2024</time>
+                    <p class="news-text">Invited talk at Korean Neuropsychiatric Association Jeonbuk Branch.</p>
+                </div>
+                <div class="news-item">
+                    <time class="news-date">Jan 2024</time>
+                    <p class="news-text">Two first-authored papers on LLM × Well-being accepted to <strong>CHI 2024</strong>.</p>
+                </div>
+                <div class="news-item">
+                    <time class="news-date">Jul 2023</time>
+                    <p class="news-text">Invited talk at HAI LAB seminar, SEOULTECH.</p>
+                </div>
+                <div class="news-item">
+                    <time class="news-date">Apr 2023</time>
+                    <p class="news-text">Panel talk at NAVER UX Designer Workshop.</p>
+                </div>
+                <div class="news-item">
+                    <time class="news-date">Jan 2023</time>
+                    <p class="news-text">Internship at NAVER AI Lab, working with <a href="http://younghokim.net/">Dr. Young-Ho Kim</a>.</p>
+                </div>
+                <div class="news-item">
+                    <time class="news-date">Oct 2022</time>
+                    <p class="news-text">Invited talk at NAVER AI Lab.</p>
+                </div>
+                <div class="news-item">
+                    <time class="news-date">Sep 2022</time>
+                    <p class="news-text"><a href="https://dl.acm.org/doi/abs/10.1145/3491102.3517701">MindScope</a> featured in <a href="https://breakthroughs.kaist.ac.kr/?post_no=2261">KAIST Breakthroughs</a>.</p>
+                </div>
+                <div class="news-item">
+                    <time class="news-date">Feb 2022</time>
+                    <p class="news-text">Two CHI 2022 papers conditionally accepted.</p>
+                </div>
+                <div class="news-item">
+                    <time class="news-date">Jan 2022</time>
+                    <p class="news-text">Co-authored paper accepted to <strong>CSCW 2022</strong>.</p>
+                </div>
+                <div class="news-item">
+                    <time class="news-date">Aug 2021</time>
+                    <p class="news-text">Paper on mental health disclosure on SNS accepted to JMIR Mental Health.</p>
+                </div>
+                <div class="news-item">
+                    <time class="news-date">Sep 2021</time>
+                    <p class="news-text">Started Ph.D. at Industrial Design, KAIST.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
+
+
+</div><!-- /col-left -->
+<div class="col-right">
+
+    <!-- ── Research ─────────────────────────────────── -->
+    <section id="research">
+        <h2 class="section-label">Research</h2>
+        <p class="research-intro">Designing the interaction layer between people and AI, across clinical care, mental health, and multimodal media.</p>
+
+        <article class="research-card">
+            <div class="research-body">
+                <h3>Interaction Design for Multimodal Video AI</h3>
+                <div class="research-reveal">
+                    <div class="research-reveal-inner">
+                        <p>Video holds time, space, people, and narrative at once — a chat box isn't the right interface for it. I'm designing interaction languages where direct manipulation (selecting regions, brushing timelines, clicking entities) translates into structured intent that drives AI video reasoning.</p>
+                        <div class="tag-row" style="margin-bottom: 16px;">
+                            <span class="paper-tag">In Progress · TwelveLabs</span>
+                            <span class="paper-tag">Multimodal Interaction</span>
+                            <span class="paper-tag">Generative UI</span>
+                        </div>
+                        <a href="https://www.twelvelabs.io/jockey" target="_blank" class="demo-card">
+                            <div class="demo-thumb">
+                                <img src="img/jockey-thumb.png" alt="Jockey by TwelveLabs">
+                            </div>
+                            <div class="demo-info">
+                                <span class="demo-badge">Research Preview</span>
+                                <span class="demo-card-title">Jockey · TwelveLabs</span>
+                                <span class="demo-arrow">↗</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="research-card">
+            <div class="research-body">
+                <h3>LLMs in Clinical & Mental Health Settings</h3>
+                <div class="research-reveal">
+                    <div class="research-reveal-inner">
+                        <p>Exploring how LLMs can reduce the gap between clinical information and the people who need it — from AI-assisted journaling that supports psychiatric patients' self-reflection, to generating patient-friendly clinical notes that help patients actively participate in their own emergency care.</p>
+                        <div class="tag-row" style="margin-bottom:16px">
+                            <a href="https://dl.acm.org/doi/full/10.1145/3613904.3642937" class="paper-tag">MindfulDiary · CHI '24</a>
+                            <a href="https://dl.acm.org/doi/full/10.1145/3613904.3642693" class="paper-tag">DiaryMate · CHI '24</a>
+                            <a href="https://www.nature.com/articles/s41598-025-31113-y" class="paper-tag">Clinical Notes · Sci Rep '26</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="research-card">
+            <div class="research-body">
+                <h3>Digital Mental Health</h3>
+                <div class="research-reveal">
+                    <div class="research-reveal-inner">
+                        <p>Innovative approaches to improving mental well-being through technology. MindScope monitors stress from smartphone activities, while a social bot design explores care-receiver interactions and stigma reduction.</p>
+                        <div class="tag-row">
+                            <a href="https://dl.acm.org/doi/abs/10.1145/3491102.3517701" class="paper-tag">MindScope · CHI '22</a>
+                            <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376743" class="paper-tag">Gloomy · CHI '20</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <!-- ── Publications ─────────────────────────────── -->
+    <section id="publications" class="publications-section">
+        <h2 class="section-label">Publications</h2>
+
+        <h3 class="pub-group-title">Journal & Conference Papers</h3>
+        <ul class="pub-list">
+
+            <li class="pub-item">
+                <span class="pub-badge sci-rep">Scientific Reports 2026</span>
+                <p class="pub-title"><a href="https://www.nature.com/articles/s41598-025-31113-y">Enhancing Patient Participation in Emergency Department through Patient-Friendly Clinical Notes Generated by Large Language Models</a></p>
+                <p class="pub-authors">Sung-In Kim, Joonyoung Park, <span class="self">Taewan Kim</span>, Wooseok Seo, Tae Rim Kim, Won Chul Cha, Hwajung Hong</p>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge chi">CHI 2025</span>
+                <p class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3706598.3713383">Exploring Design Spaces to Facilitate Household Collaboration for Cohabiting Couples</a></p>
+                <p class="pub-authors">Gahyeon Bae, Seo Kyoung Park, <span class="self">Taewan Kim</span>, Hwajung Hong</p>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge chi">CHI 2024</span>
+                <p class="pub-title"><a href="https://dl.acm.org/doi/full/10.1145/3613904.3642937">MindfulDiary: Harnessing Large Language Model to Support Psychiatric Patients' Journaling</a></p>
+                <p class="pub-authors"><span class="self">Taewan Kim</span>, Seolyeong Bae, Hyun AH Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim</p>
+                <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/full/10.1145/3613904.3642937">ACM DL</a>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge chi">CHI 2024</span>
+                <p class="pub-title"><a href="https://dl.acm.org/doi/full/10.1145/3613904.3642693">DiaryMate: Understanding User Perceptions and Experience in Human-AI Collaboration for Personal Journaling</a></p>
+                <p class="pub-authors"><span class="self">Taewan Kim</span>, Donghoon Shin, Young-Ho Kim, Hwajung Hong</p>
+                <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/full/10.1145/3613904.3642693">ACM DL</a>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge dis">DIS 2024</span>
+                <p class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3643834.3660705">Co-Creating Question-and-Answer Style Articles with Large Language Models for Research Promotion</a></p>
+                <p class="pub-authors">Hyunseung Lim, Ji Yong Cho, <span class="self">Taewan Kim</span>, Jeongeon Park, Hyungyu Shin, Seulgi Choi, Sunghyun Park, Kyungjae Lee, Juho Kim, Moontae Lee, Hwajung Hong</p>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge jmir">JMIR Formative Research 2024</span>
+                <p class="pub-title"><a href="https://formative.jmir.org/2024/1/e52157">Promoting Self-Efficacy of Individuals with Autism in Practicing Social Skills in the Workplace Using Virtual Reality and Physiological Sensors: A Feasibility Study</a></p>
+                <p class="pub-authors">Sung-In Kim, So-youn Jang, <span class="self">Taewan Kim</span>, Bogoan Kim, Dayoung Jeong, Taehyung Noh, Mingon Jeong, Kaely Hall, Meelim Kim, Hee Jeong Yoo, Kyungsik Han, Hwajung Hong, Jennifer G. Kim</p>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge chi">CHI 2022</span>
+                <p class="pub-title"><a href="https://doi.org/10.1145/3491102.3517701">Prediction for Retrospection: Integrating Algorithmic Stress Prediction into Personal Informatics Systems for College Students' Mental Health</a></p>
+                <p class="pub-authors"><span class="self">Taewan Kim</span>, Haesoo Kim, Hayeon Lee, Hwarang Goh, Shakhboz Abdigapporov, Mingon Jeong, Hyunsung Cho, Kyungsik Han, Youngtae Noh, Sung-Ju Lee, Hwajung Hong</p>
+                <div class="pub-links">
+                    <a href="https://doi.org/10.1145/3491102.3517701">ACM DL</a>
+                    <a href="https://drive.google.com/file/d/1rEv0pESDvZXClkWMz-y-BSI1lwGv2KlG/view?usp=sharing">PDF</a>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge chi">CHI 2022</span>
+                <p class="pub-title"><a href="https://doi.org/10.1145/3491102.3517561">Sad or Just Jealous? Using Experience Sampling to Understand and Detect Negative Affective Experiences on Instagram</a></p>
+                <p class="pub-authors">Mintra Ruensuk, <span class="self">Taewan Kim</span>, Hwajung Hong, Ian Oakley</p>
+                <div class="pub-links">
+                    <a href="https://doi.org/10.1145/3491102.3517561">ACM DL</a>
+                    <a href="https://drive.google.com/file/d/1OKNsZTntRza6e1xYvPRdiNi9Ax3Sz5Or/view?usp=sharing">PDF</a>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge cscw">CSCW 2022</span>
+                <p class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3555082">The Workplace Playbook VR: Exploring the Design Space of Virtual Reality to Foster Understanding and Support of Autistic People in the Workplace</a></p>
+                <p class="pub-authors">Jennifer G. Kim, <span class="self">Taewan Kim</span>, Sungin Kim, Soyeon Jang, Stephanie Lee, Heejung Yoo, Kyungsik Han, Hwajung Hong</p>
+                <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/10.1145/3555082">ACM DL</a>
+                    <a href="https://drive.google.com/file/d/1UK-8S3aiOHygc24T6rO-NccypzaBXIEF/view?usp=share_link">PDF</a>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge vrst">VRST 2022</span>
+                <p class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3562939.3565608">VISTA: Understanding Characteristics of Autistic People through a VR-based Interactive Social Skills Training System</a></p>
+                <p class="pub-authors">Bogoan Kim, Dayoung Jeong, Mingon Jeong, Taehyung Noh, Sung-In Kim, <span class="self">Taewan Kim</span>, So-youn Jang, Hee Jeong Yoo, Jennifer G. Kim, Hwajung Hong, Kyungsik Han</p>
+                <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/10.1145/3562939.3565608">ACM DL</a>
+                    <a href="https://drive.google.com/file/d/1lfrn-frQZB-BUJHw7ChmCDSjB0i3GKt2/view?usp=share_link">PDF</a>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge jmir">JMIR Mental Health 2021</span>
+                <p class="pub-title"><a href="https://mental.jmir.org/2021/10/e23465">Understanding University Students' Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health-related Problems on Social Network Sites</a></p>
+                <p class="pub-authors"><span class="self">Taewan Kim</span>, Hwajung Hong</p>
+                <div class="pub-links">
+                    <a href="https://mental.jmir.org/2021/10/e23465">Open Access</a>
+                    <a href="https://drive.google.com/file/d/1B2vgjTg_vcBWFLYmOw4jZRiruMQkMwR9/view?usp=sharing">PDF</a>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge chi">CHI 2020</span>
+                <p class="pub-title"><a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376743">In Helping a Vulnerable Bot, You Help Yourself: Designing a Social Bot as a Care-Receiver to Promote Mental Health and Reduce Stigma</a></p>
+                <p class="pub-authors"><span class="self">Taewan Kim</span>, Mintra Ruensuk, Hwajung Hong</p>
+                <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/abs/10.1145/3313831.3376743">ACM DL</a>
+                    <a href="https://drive.google.com/file/d/1Mybrw_6DC98xS6KXUR0lcbENucuWuM3J/view">PDF</a>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge journal">Archives of Design Research 2018</span>
+                <p class="pub-title"><a href="https://doi.org/10.15187/adr.2018.11.31.4.23">Design Constraints and Their Influence upon Design Outcome</a></p>
+                <p class="pub-authors"><span class="self">Taewan Kim</span>, James Andrew Self, Hwajung Hong</p>
+                <div class="pub-links">
+                    <a href="https://doi.org/10.15187/adr.2018.11.31.4.23">Link</a>
+                    <a href="https://drive.google.com/file/d/14Bx8AF0Dts-Qta02l5SBD2ZOmWnF3dpl/view">PDF</a>
+                </div>
+            </li>
+
+        </ul>
+
+        <h3 class="pub-group-title">Extended Abstracts & Workshop Papers</h3>
+        <ul class="pub-list">
+
+            <li class="pub-item">
+                <span class="pub-badge workshop">CHI 2024 Workshop</span>
+                <p class="pub-title"><a href="https://drive.google.com/file/d/1EIT-HREGqTaRMQ1lJE2qpkQBG7frec8p/view?usp=sharing">Evaluating and Auditing LLM-Driven Chatbots for Psychiatric Patients in Clinical Mental Health Settings</a></p>
+                <p class="pub-authors"><span class="self">Taewan Kim</span>, Seolyeong Bae, Hyun AH Kim, Su-woo Lee, Hwajung Hong, Chanmo Yang, Young-Ho Kim</p>
+                <p class="pub-note">Workshop on Human-centered Evaluation and Auditing of Language Models (HEAL)</p>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge workshop">CHI 2024 Workshop</span>
+                <p class="pub-title"><a href="https://drive.google.com/file/d/1nC2woXhdodJMV9bkZgwZ4FuoqHSYBug9/view?usp=sharing">Towards an Evaluation of LLM-Generated Inspiration by Developing and Validating Inspiration Scale</a></p>
+                <p class="pub-authors">Hyungyu Shin, Seulgi Choi, Ji Yong Cho, Sahar Admoni, Hyunseung Lim, <span class="self">Taewan Kim</span>, Hwajung Hong, Moontae Lee, Juho Kim</p>
+                <p class="pub-note">Workshop on Human-centered Evaluation and Auditing of Language Models (HEAL)</p>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge workshop">CHI 2023 Workshop</span>
+                <p class="pub-title"><a href="https://drive.google.com/file/d/1jpwrdTbpt7tcFTw6WET4Sb2KZoSC7eSH/view?usp=sharing">DiaryMate: Exploring the Roles of Large Language Models in Facilitating AI-mediated Journaling</a></p>
+                <p class="pub-authors"><span class="self">Taewan Kim</span>, Donghoon Shin, Young-Ho Kim, Hwajung Hong</p>
+                <p class="pub-note">Workshop on Intelligent and Interactive Writing Assistants (In2Writing)</p>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge ieee">IEEE BIGCOMP 2023</span>
+                <p class="pub-title"><a href="https://ieeexplore.ieee.org/abstract/document/10066645">Designing a Personalized Stress Management System for Call Center Workers</a></p>
+                <p class="pub-authors">Kwangyoung Lee, Hyunseung Lim, Sooyeon Ahn, <span class="self">Taewan Kim</span>, Hwajung Hong</p>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge workshop">CHI 2021 Workshop</span>
+                <p class="pub-title"><a href="https://drive.google.com/file/d/1Y2KLQmBRPKBEos1QYcaneLPwmISeb5-N/view">Leveraging Challenges of an Algorithm-Based Symptom Checker on User Trust through Explainable AI</a></p>
+                <p class="pub-authors">Youjin Hwang, <span class="self">Taewan Kim</span>, Junhan Kim, Joonhwan Lee, Hwajung Hong</p>
+                <p class="pub-note">Workshop on Realizing AI in Healthcare: Challenges Appearing in the Wild</p>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge workshop">HCI Korea 2021</span>
+                <p class="pub-title"><a href="https://drive.google.com/file/d/1gG2XxffOtBx6ohDSFps8g2CNjHoY655q/view">질병의 자가 진단을 위한 알고리즘 기반 증상 확인 애플리케이션의 사용자 경험에 관한 탐색적 연구</a></p>
+                <p class="pub-authors"><span class="self">Taewan Kim</span>, Youjin Hwang, Junhan Kim, Joonhwan Lee, Hwajung Hong</p>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge workshop">CSCW 2018 Workshop</span>
+                <p class="pub-title"><a href="https://drive.google.com/file/d/1CHSTtNAiKYv0aA1ikpc4owbm_e_h2TzS/view">Studying Students Experiencing Mental Health Problems</a></p>
+                <p class="pub-authors"><span class="self">Taewan Kim</span>, Hwajung Hong</p>
+                <p class="pub-note">Workshop on Conducting Research with Stigmatized Populations</p>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge dis">DIS 2017 Demo</span>
+                <p class="pub-title"><a href="https://dl.acm.org/doi/10.1145/3064857.3079183">Calm Station: An Interactive Perpetual Desk Object that Reduces Digital Distractions</a></p>
+                <p class="pub-authors"><span class="self">Taewan Kim</span>, Young-Woo Park, Hwajung Hong</p>
+                <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/10.1145/3064857.3079183">ACM DL</a>
+                    <a href="https://drive.google.com/file/d/1M6rPOFV3lEyjL5JPzq8seV9uUsFbycRH/view">PDF</a>
+                    <a href="https://www.youtube.com/watch?v=gCBQhNUlmzo">Video</a>
+                </div>
+            </li>
+
+            <li class="pub-item">
+                <span class="pub-badge workshop">CHI 2015</span>
+                <p class="pub-title"><a href="https://dl.acm.org/doi/10.1145/2702613.2726952">FamCom: A Communication Service Enhancing Conversation Quality Between Elders Residing in Care Hospital and Their Family Member</a></p>
+                <p class="pub-authors">Mingu Kanng, <span class="self">Taewan Kim</span>, Youngjae Kim, Junghwan Ahn</p>
+                <p class="pub-note">Student Design Competition</p>
+                <div class="pub-links">
+                    <a href="https://dl.acm.org/doi/10.1145/2702613.2726952">ACM DL</a>
+                    <a href="https://www.youtube.com/watch?v=hnQ5MZfrw60">Video</a>
+                </div>
+            </li>
+
+        </ul>
+    </section>
+
+</div><!-- /col-right -->
+</div><!-- /layout -->
+
+    <footer class="site-footer">
+        <p>© Taewan Kim</p>
     </footer>
-</div>
-<script src="javascripts/scale.fix.js"></script>
+
+</main>
+
+<script>
+// ── Background graph animation ────────────────────
+(function () {
+  const canvas = document.getElementById('bg-canvas');
+  const ctx = canvas.getContext('2d');
+  const NUM = 48;
+  const MAX_D = 140;
+  let nodes = [];
+  let W, H;
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+
+  function init() {
+    nodes = Array.from({ length: NUM }, () => ({
+      x:  Math.random() * W,
+      y:  Math.random() * H,
+      vx: (Math.random() - 0.5) * 0.35,
+      vy: (Math.random() - 0.5) * 0.35,
+      pulse: 0,
+    }));
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+
+    // edges
+    for (let i = 0; i < NUM; i++) {
+      for (let j = i + 1; j < NUM; j++) {
+        const dx = nodes[i].x - nodes[j].x;
+        const dy = nodes[i].y - nodes[j].y;
+        const d  = Math.sqrt(dx * dx + dy * dy);
+        if (d < MAX_D) {
+          const a = (1 - d / MAX_D) * 0.1;
+          ctx.beginPath();
+          ctx.moveTo(nodes[i].x, nodes[i].y);
+          ctx.lineTo(nodes[j].x, nodes[j].y);
+          ctx.strokeStyle = `rgba(220,220,220,${a})`;
+          ctx.lineWidth = 0.6;
+          ctx.stroke();
+        }
+      }
+    }
+
+    // nodes
+    nodes.forEach(n => {
+      const r = 1.8 + n.pulse * 4;
+      const a = 0.28 + n.pulse * 0.45;
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(220,220,220,${a})`;
+      ctx.fill();
+
+      // pulse ring
+      if (n.pulse > 0.05) {
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, r + 6 * (1 - n.pulse), 0, Math.PI * 2);
+        ctx.strokeStyle = `rgba(220,220,220,${n.pulse * 0.15})`;
+        ctx.lineWidth = 0.8;
+        ctx.stroke();
+      }
+    });
+  }
+
+  function tick() {
+    nodes.forEach(n => {
+      n.x += n.vx;
+      n.y += n.vy;
+      if (n.x < 0 || n.x > W) n.vx *= -1;
+      if (n.y < 0 || n.y > H) n.vy *= -1;
+      if (n.pulse > 0) n.pulse = Math.max(0, n.pulse - 0.018);
+    });
+    draw();
+    requestAnimationFrame(tick);
+  }
+
+  // random pulse
+  setInterval(() => {
+    nodes[Math.floor(Math.random() * NUM)].pulse = 1;
+  }, 1800);
+
+  resize();
+  window.addEventListener('resize', () => { resize(); init(); });
+  init();
+  tick();
+})();
+
+// ── News toggle ───────────────────────────────────
+function toggleNews(btn) {
+    const extra = document.getElementById('news-extra');
+    const expanded = btn.getAttribute('aria-expanded') === 'true';
+    if (expanded) {
+        extra.hidden = true;
+        btn.setAttribute('aria-expanded', 'false');
+        btn.textContent = '▸ See all updates';
+    } else {
+        extra.hidden = false;
+        btn.setAttribute('aria-expanded', 'true');
+        btn.textContent = '▴ Collapse';
+    }
+}
+</script>
+
 </body>
 </html>
