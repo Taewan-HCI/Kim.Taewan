@@ -102,6 +102,12 @@ strong { font-weight: 500; color: var(--text); }
 
 .col-right { min-width: 0; }
 
+/* ─── Single column (Research / Publications) ────── */
+.single-col {
+  max-width: 900px;
+  margin-top: 72px;
+}
+
 /* ─── Hero ───────────────────────────────────────── */
 .hero {
   margin-bottom: 40px;
@@ -159,7 +165,7 @@ strong { font-weight: 500; color: var(--text); }
 
 .hero-link-row a {
   font-size: 13px;
-  color: var(--muted);
+  color: var(--accent);
   padding-right: 14px;
   margin-right: 14px;
   border-right: 1px solid var(--border);
@@ -170,7 +176,7 @@ strong { font-weight: 500; color: var(--text); }
   margin-right: 0;
   padding-right: 0;
 }
-.hero-link-row a:hover { color: var(--text); }
+.hero-link-row a:hover { color: var(--sub); }
 
 /* ─── Section label ──────────────────────────────── */
 .section-label {
@@ -179,7 +185,7 @@ strong { font-weight: 500; color: var(--text); }
   font-weight: 500;
   letter-spacing: 0.12em;
   text-transform: uppercase;
-  color: var(--muted);
+  color: var(--accent);
   margin-bottom: 20px;
 }
 
@@ -211,7 +217,7 @@ strong { font-weight: 500; color: var(--text); }
 .news-date {
   font-family: var(--mono);
   font-size: 10px;
-  color: var(--muted);
+  color: var(--accent);
   white-space: nowrap;
   padding-top: 2px;
 }
@@ -222,8 +228,15 @@ strong { font-weight: 500; color: var(--text); }
   line-height: 1.6;
 }
 .news-text strong { color: var(--text); }
-.news-text a { color: var(--sub); border-bottom: 1px solid var(--border); }
-.news-text a:hover { color: var(--text); border-color: var(--muted); }
+.news-text a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-color: var(--muted);
+  text-underline-offset: 3px;
+  transition: text-decoration-color 0.15s;
+}
+.news-text a:hover { text-decoration-color: var(--accent); }
+.news-text a strong { color: inherit; }
 
 .news-extra { }
 
@@ -242,15 +255,77 @@ strong { font-weight: 500; color: var(--text); }
 .news-toggle-btn:hover { color: var(--text); }
 
 /* ─── Research ───────────────────────────────────── */
-.research-intro {
-  font-size: 16px;
+.research-vision {
+  margin-bottom: 40px;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--border);
+}
+
+.vision-copy {
+  max-width: 640px;
+  margin-bottom: 36px;
+}
+
+.vision-eyebrow {
+  font-family: var(--mono);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+
+.vision-title {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 1.45;
+  color: var(--accent);
+  letter-spacing: -0.01em;
+  margin-bottom: 16px;
+}
+
+.vision-lead {
+  font-size: 13.5px;
+  color: var(--sub);
+  line-height: 1.7;
+}
+.vision-title u {
+  text-decoration-color: var(--muted);
+  text-underline-offset: 4px;
+}
+
+.mediation-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: start;
+}
+
+.mediation-icon {
+  width: 40px;
+  height: 40px;
+  color: var(--sub);
+  margin-bottom: 12px;
+}
+
+.mediation-statement {
+  font-size: 14px;
   font-weight: 500;
   color: var(--accent);
-  line-height: 1.6;
-  margin-bottom: 24px;
-  max-width: 520px;
-  letter-spacing: -0.01em;
+  line-height: 1.5;
+  letter-spacing: -0.005em;
+  margin-bottom: 10px;
 }
+
+.mediation-desc {
+  font-size: 13px;
+  color: var(--sub);
+  line-height: 1.65;
+  max-width: 460px;
+  margin-bottom: 14px;
+}
+
 .research-card {
   padding: 20px 0 24px;
   border-bottom: 1px solid var(--border);
@@ -407,6 +482,39 @@ a.paper-tag:hover {
 }
 .demo-card:hover .demo-thumb img { opacity: 0.85; }
 
+.demo-row {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 28px;
+}
+.demo-row .demo-card {
+  width: 200px;
+  max-width: 200px;
+  flex: 0 0 auto;
+}
+.product-thumb {
+  aspect-ratio: 4 / 3;
+  background: #fff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product-thumb img {
+  object-fit: contain;
+}
+
+.fill-thumb {
+  padding: 0;
+}
+.fill-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 20%;
+}
+
 .demo-info {
   display: flex;
   align-items: center;
@@ -541,93 +649,6 @@ a.paper-tag:hover {
 }
 .pub-more:hover { color: var(--text); }
 
-/* ─── CV (Experience & Education) ────────────────── */
-.cv-list {
-  display: flex;
-  flex-direction: column;
-}
-
-.cv-item {
-  display: grid;
-  grid-template-columns: 52px 1fr;
-  gap: 16px;
-  align-items: start;
-  padding: 8px 0;
-  border-bottom: 1px solid var(--border);
-  cursor: default;
-}
-.cv-item:first-child { border-top: 1px solid var(--border); }
-
-.cv-year {
-  font-family: var(--mono);
-  font-size: 10px;
-  color: var(--muted);
-  white-space: nowrap;
-  padding-top: 3px;
-}
-
-.cv-body { min-width: 0; }
-
-.cv-role {
-  font-size: 12px;
-  font-weight: 400;
-  color: var(--sub);
-  line-height: 1.4;
-}
-
-.cv-org {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text);
-  margin-bottom: 2px;
-}
-
-.cv-note {
-  font-family: var(--mono);
-  font-size: 10px;
-  color: var(--muted);
-  letter-spacing: 0.03em;
-}
-
-.cv-item .cv-reveal {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 0.35s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.cv-item:hover .cv-reveal {
-  grid-template-rows: 1fr;
-}
-
-.cv-item .cv-reveal-inner {
-  overflow: hidden;
-  opacity: 0;
-  transform: translateY(4px);
-  transition: opacity 0.25s ease 0.08s, transform 0.25s ease 0.08s;
-}
-.cv-item:hover .cv-reveal-inner {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-.cv-bullets {
-  list-style: none;
-  padding: 6px 0 2px;
-}
-.cv-bullets li {
-  font-size: 12px;
-  color: var(--sub);
-  line-height: 1.6;
-  padding-left: 12px;
-  position: relative;
-  margin-bottom: 3px;
-}
-.cv-bullets li::before {
-  content: '·';
-  position: absolute;
-  left: 0;
-  color: var(--muted);
-}
-
 /* ─── Footer ─────────────────────────────────────── */
 .site-footer {
   margin-top: 80px;
@@ -663,6 +684,10 @@ a.paper-tag:hover {
   .hero-bio  { font-size: 13px; }
   .nav-links { gap: 16px; }
   .nav-links a { font-size: 12px; }
+  .vision-title { font-size: 20px; }
+  .mediation-grid { grid-template-columns: 1fr; gap: 28px; }
+  .demo-row { flex-direction: column; }
+  .demo-row .demo-card { max-width: none; }
 }
 
 @media print {
