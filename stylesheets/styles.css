@@ -102,11 +102,35 @@ strong { font-weight: 500; color: var(--text); }
 
 .col-right { min-width: 0; }
 
-/* ─── Single column (Research / Publications) ────── */
+/* ─── Single column (Publications) ───────────────── */
 .single-col {
   max-width: 900px;
   margin-top: 72px;
 }
+
+/* ─── Full-bleed section band (Research) ─────────── */
+/* Bleeds edge-to-edge by cancelling .container's own
+   padding, then re-adding the same inset so the content
+   inside lines up with everything above/below it. */
+.section-band {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  margin-top: 72px;
+  padding: 56px 0;
+  background: var(--surface);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+/* Re-centers to the same 1200px column as .container, so the
+   900px-wide research content lines up with Hero/News/Publications
+   above and below even though the band itself is edge-to-edge. */
+.section-band-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 8px;
+}
+#research { max-width: 900px; }
 
 /* ─── Hero ───────────────────────────────────────── */
 .hero {
@@ -667,14 +691,14 @@ a.paper-tag:hover {
 @media (max-width: 1100px) and (min-width: 641px) {
   .container  { padding-left: 32px; padding-right: 32px; }
   .nav-inner  { padding-left: 32px; padding-right: 32px; }
+  .section-band-inner { padding-left: 32px; padding-right: 32px; }
 }
 
-@media (max-width: 640px) {
-  .container {
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: calc(var(--nav-h) + 48px);
-  }
+/* The 3fr/5fr hero+news split and the 1fr/1fr mediation split both
+   get cramped well before 640px (wrapped names, split "Google
+   Scholar", squeezed demo cards) — collapse them to one column
+   earlier, at a width where each column still has room to breathe. */
+@media (max-width: 860px) {
   .layout {
     grid-template-columns: 1fr;
     gap: 0;
@@ -683,12 +707,22 @@ a.paper-tag:hover {
     position: static;
     margin-bottom: 48px;
   }
+  .mediation-grid { grid-template-columns: 1fr; gap: 28px; }
+}
+
+@media (max-width: 640px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: calc(var(--nav-h) + 48px);
+  }
+  .section-band { padding-top: 40px; padding-bottom: 40px; }
+  .section-band-inner { padding-left: 20px; padding-right: 20px; }
   .hero-name { font-size: 28px; }
   .hero-bio  { font-size: 13px; }
   .nav-links { gap: 16px; }
   .nav-links a { font-size: 12px; }
   .vision-title { font-size: 20px; }
-  .mediation-grid { grid-template-columns: 1fr; gap: 28px; }
   .demo-row { flex-direction: column; }
   .demo-row .demo-card { max-width: none; }
 }
