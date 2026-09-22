@@ -144,6 +144,9 @@ strong { font-weight: 500; color: var(--text); }
   max-width: 520px;
   margin-bottom: 28px;
 }
+.hero-bio strong { color: var(--accent); }
+.hero-bio a { text-decoration: none; }
+.hero-bio a:hover strong { text-decoration: underline; text-underline-offset: 2px; }
 
 .hero-links {
   display: flex;
@@ -561,7 +564,7 @@ a.paper-tag:hover {
   font-family: var(--mono);
   font-size: 10px;
   font-weight: 500;
-  color: var(--muted);
+  color: var(--accent);
   letter-spacing: 0.08em;
   text-transform: uppercase;
   margin: 40px 0 0;
@@ -600,7 +603,7 @@ a.paper-tag:hover {
 .pub-badge.sci-rep,
 .pub-badge.ieee,
 .pub-badge.workshop,
-.pub-badge.journal  { color: var(--sub); background: var(--surface); border: 1px solid var(--border); }
+.pub-badge.journal  { color: var(--accent); background: var(--surface); border: 1px solid var(--border); }
 
 .pub-title {
   font-size: 13px;
@@ -609,8 +612,8 @@ a.paper-tag:hover {
   line-height: 1.5;
   margin-bottom: 5px;
 }
-.pub-title a { color: var(--sub); }
-.pub-title a:hover { color: var(--accent); }
+.pub-title a { color: var(--accent); }
+.pub-title a:hover { color: var(--sub); }
 
 .pub-authors {
   font-size: 12px;
