@@ -436,8 +436,7 @@
   const canvas = document.getElementById('bg-canvas');
   const ctx = canvas.getContext('2d');
   const isMobile = () => window.innerWidth < 641;
-  const NUM = isMobile() ? 16 : 48;
-  const MAX_D = isMobile() ? 100 : 140;
+  const NUM = isMobile() ? 8 : 22;
   let nodes = [];
   let W, H;
 
@@ -459,38 +458,20 @@
   function draw() {
     ctx.clearRect(0, 0, W, H);
 
-    // edges
-    for (let i = 0; i < NUM; i++) {
-      for (let j = i + 1; j < NUM; j++) {
-        const dx = nodes[i].x - nodes[j].x;
-        const dy = nodes[i].y - nodes[j].y;
-        const d  = Math.sqrt(dx * dx + dy * dy);
-        if (d < MAX_D) {
-          const a = (1 - d / MAX_D) * 0.1;
-          ctx.beginPath();
-          ctx.moveTo(nodes[i].x, nodes[i].y);
-          ctx.lineTo(nodes[j].x, nodes[j].y);
-          ctx.strokeStyle = `rgba(220,220,220,${a})`;
-          ctx.lineWidth = 0.6;
-          ctx.stroke();
-        }
-      }
-    }
-
-    // nodes
+    // nodes only — no connecting lines, kept very quiet
     nodes.forEach(n => {
-      const r = 1.8 + n.pulse * 4;
-      const a = 0.28 + n.pulse * 0.45;
+      const r = 1.4 + n.pulse * 2.5;
+      const a = 0.1 + n.pulse * 0.22;
       ctx.beginPath();
       ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
-      ctx.fillStyle = `rgba(220,220,220,${a})`;
+      ctx.fillStyle = `rgba(60,57,48,${a})`;
       ctx.fill();
 
       // pulse ring
       if (n.pulse > 0.05) {
         ctx.beginPath();
-        ctx.arc(n.x, n.y, r + 6 * (1 - n.pulse), 0, Math.PI * 2);
-        ctx.strokeStyle = `rgba(220,220,220,${n.pulse * 0.15})`;
+        ctx.arc(n.x, n.y, r + 5 * (1 - n.pulse), 0, Math.PI * 2);
+        ctx.strokeStyle = `rgba(60,57,48,${n.pulse * 0.08})`;
         ctx.lineWidth = 0.8;
         ctx.stroke();
       }
