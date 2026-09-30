@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2QXL4Q9EDY"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-2QXL4Q9EDY');
+    </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} · Taewan Kim{% else %}Taewan Kim{% endif %}</title>
+    {% if page.excerpt %}<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">{% endif %}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ '/stylesheets/styles.css' | relative_url }}">
+    <link rel="alternate" type="application/rss+xml" title="Taewan Kim — Writing" href="{{ '/feed.xml' | relative_url }}">
+
+</head>
+<body>
+
+<canvas id="bg-canvas"></canvas>
+
+<!-- ── Navigation ─────────────────────────────────── -->
+<nav class="top-nav">
+    <div class="nav-inner">
+        <a href="{{ '/' | relative_url }}" class="nav-brand">Taewan Kim</a>
+        <div class="nav-links">
+            <a href="{{ '/' | relative_url }}#home">About</a>
+            <a href="{{ '/' | relative_url }}#research">Research</a>
+            <a href="{{ '/' | relative_url }}#publications">Publications</a>
+            <a href="{{ '/posts/' | relative_url }}">Posts</a>
+            <a href="https://github.com/Taewan-HCI/Kim.Taewan/raw/main/img/TaewanKim_CV_Apr2026.pdf" target="_blank">CV</a>
+        </div>
+    </div>
+</nav>
+
+<main class="container">
+
+{{ content }}
+
+    <footer class="site-footer">
+        <p>© Taewan Kim</p>
+    </footer>
+
+</main>
+
+<script>
+// ── Background graph animation ────────────────────
+(function () {
+  const canvas = document.getElementById('bg-canvas');
+  const ctx = canvas.getContext('2d');
+  const isMobile = () => window.innerWidth < 641;
+  const NUM = isMobile() ? 8 : 22;
+  let nodes = [];
+  let W, H;
+
+  function resize() {
+    W = canvas.width  = window.innerWidth;
+    H = canvas.height = window.innerHeight;
+  }
+
+  function init() {
+    nodes = Array.from({ length: NUM }, () => ({
+      x:  Math.random() * W,
+      y:  Math.random() * H,
+      vx: (Math.random() - 0.5) * 0.35,
+      vy: (Math.random() - 0.5) * 0.35,
+      pulse: 0,
+    }));
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, W, H);
+
+    // nodes only — no connecting lines, kept very quiet
+    nodes.forEach(n => {
+      const r = 1.4 + n.pulse * 2.5;
+      const a = 0.1 + n.pulse * 0.22;
+      ctx.beginPath();
+      ctx.arc(n.x, n.y, r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(60,57,48,${a})`;
+      ctx.fill();
+
+      // pulse ring
+      if (n.pulse > 0.05) {
+        ctx.beginPath();
+        ctx.arc(n.x, n.y, r + 5 * (1 - n.pulse), 0, Math.PI * 2);
+        ctx.strokeStyle = `rgba(60,57,48,${n.pulse * 0.08})`;
+        ctx.lineWidth = 0.8;
+        ctx.stroke();
+      }
+    });
+  }
+
+  function tick() {
+    nodes.forEach(n => {
+      n.x += n.vx;
+      n.y += n.vy;
+      if (n.x < 0 || n.x > W) n.vx *= -1;
+      if (n.y < 0 || n.y > H) n.vy *= -1;
+      if (n.pulse > 0) n.pulse = Math.max(0, n.pulse - 0.018);
+    });
+    draw();
+    requestAnimationFrame(tick);
+  }
+
+  // random pulse
+  setInterval(() => {
+    nodes[Math.floor(Math.random() * NUM)].pulse = 1;
+  }, isMobile() ? 3600 : 1800);
+
+  resize();
+  window.addEventListener('resize', () => { resize(); init(); });
+  init();
+  tick();
+})();
+</script>
+
+</body>
+</html>

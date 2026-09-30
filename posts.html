@@ -1,0 +1,28 @@
+---
+layout: default
+title: Posts
+permalink: /posts/
+---
+<section id="posts-index" class="posts-index">
+    <h2 class="section-label">Posts</h2>
+    <p class="posts-lead">Notes and short essays — less formal than the research above, written as things come up.</p>
+
+    <div class="post-tile-grid">
+        {% for post in site.posts %}
+        <a href="{{ post.url | relative_url }}" class="post-tile">
+            <div class="post-tile-visual{% unless post.image %} post-tile-pattern{% endunless %}">
+                {% if post.image %}<img src="{{ post.image | relative_url }}" alt="">{% endif %}
+                <span class="post-tile-index">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
+            </div>
+            <div class="post-tile-caption">
+                <time class="post-tile-date">{{ post.date | date: "%b %-d, %Y" }}</time>
+                <h3 class="post-tile-title">{{ post.title }}</h3>
+            </div>
+        </a>
+        {% endfor %}
+    </div>
+
+    {% if site.posts.size == 0 %}
+    <p class="posts-lead">Nothing posted yet — check back soon.</p>
+    {% endif %}
+</section>

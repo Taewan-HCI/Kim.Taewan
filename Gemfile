@@ -33,3 +33,9 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
 gem "webrick", "~> 1.7"
+
+# Ruby 4.0 compatibility: standard library gems now need explicit inclusion
+gem "logger"
+gem "ostruct"
+gem "csv"
+gem "base64"
