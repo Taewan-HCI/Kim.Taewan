@@ -337,6 +337,7 @@ strong { font-weight: 500; color: var(--text); }
   line-height: 1.6;
   margin-top: 4px;
 }
+.tl-role a,
 .tl-desc a { color: var(--sub); text-decoration: underline; text-decoration-color: var(--muted); text-underline-offset: 3px; }
 
 .pub-badge { color: var(--accent); background: var(--surface); border: 1px solid var(--border); }
