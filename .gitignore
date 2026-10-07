@@ -3,3 +3,6 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
+
+# Full-size photo originals; only the tile-*.jpg crops are published
+img/photos/originals/
