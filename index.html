@@ -265,26 +265,32 @@
                 <p class="mediation-statement">AI mediates how humans understand themselves.</p>
                 <p class="mediation-desc">Exploring how AI can support mental well-being through everyday interaction and reflection.</p>
                 <div class="demo-row">
-                    <a href="https://dl.acm.org/doi/full/10.1145/3613904.3642937" target="_blank" class="demo-card">
-                        <div class="demo-thumb product-thumb">
-                            <img src="img/mindfuldiary-demo.webp" loading="lazy" decoding="async" alt="MindfulDiary journaling app screens">
-                        </div>
-                        <div class="demo-info">
+                    <details class="demo-card project-card">
+                        <summary class="project-summary">
                             <span class="demo-badge">CHI '24</span>
                             <span class="demo-card-title">MindfulDiary</span>
-                            <span class="demo-arrow">↗</span>
+                            <span class="project-description">AI-assisted journaling for psychiatric patients</span>
+                        </summary>
+                        <div class="project-detail">
+                            <div class="demo-thumb product-thumb">
+                                <template><img src="img/mindfuldiary-demo.webp" decoding="async" alt="MindfulDiary journaling app screens"></template>
+                            </div>
+                            <a href="https://dl.acm.org/doi/full/10.1145/3613904.3642937" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
                         </div>
-                    </a>
-                    <a href="https://dl.acm.org/doi/full/10.1145/3613904.3642693" target="_blank" class="demo-card">
-                        <div class="demo-thumb product-thumb">
-                            <img src="img/diarymate-demo.webp" loading="lazy" decoding="async" alt="DiaryMate journaling interface">
-                        </div>
-                        <div class="demo-info">
+                    </details>
+                    <details class="demo-card project-card">
+                        <summary class="project-summary">
                             <span class="demo-badge">CHI '24</span>
                             <span class="demo-card-title">DiaryMate</span>
-                            <span class="demo-arrow">↗</span>
+                            <span class="project-description">Writing a personal diary with an LLM</span>
+                        </summary>
+                        <div class="project-detail">
+                            <div class="demo-thumb product-thumb">
+                                <template><img src="img/diarymate-demo.webp" decoding="async" alt="DiaryMate journaling interface"></template>
+                            </div>
+                            <a href="https://dl.acm.org/doi/full/10.1145/3613904.3642693" target="_blank" rel="noopener">Read the paper <span aria-hidden="true">↗</span></a>
                         </div>
-                    </a>
+                    </details>
                 </div>
             </div>
             <div class="mediation-block">
@@ -298,17 +304,20 @@
                 <p class="mediation-statement">AI mediates how humans understand the world.</p>
                 <p class="mediation-desc">Exploring how AI can help people navigate and interpret complex, multimodal information such as video.</p>
                 <div class="demo-row">
-                    <a href="https://www.twelvelabs.io/jockey" target="_blank" class="demo-card">
-                        <div class="demo-thumb product-thumb fill-thumb">
-                            <img src="img/jockey-demo.webp" loading="lazy" decoding="async" alt="Jockey by TwelveLabs">
-                        </div>
-                        <div class="demo-info">
+                    <details class="demo-card project-card">
+                        <summary class="project-summary">
                             <span class="demo-badge">Product</span>
                             <span class="demo-card-title">Interaction Language for Jockey</span>
-                            <span class="demo-arrow">↗</span>
+                            <span class="project-description">Adaptive interfaces for agentic video AI</span>
+                        </summary>
+                        <div class="project-detail">
+                            <div class="demo-thumb product-thumb fill-thumb">
+                                <template><img src="img/jockey-demo.webp" decoding="async" alt="Jockey by TwelveLabs"></template>
+                            </div>
+                            <p>Jockey is TwelveLabs' agentic video AI. I led the design of its interaction language.</p>
+                            <a href="https://www.twelvelabs.io/jockey" target="_blank" rel="noopener">View product <span aria-hidden="true">↗</span></a>
                         </div>
-                    </a>
-                    <p class="demo-contribution">Jockey is TwelveLabs' agentic video AI. I led the design of its interaction language.</p>
+                    </details>
                 </div>
             </div>
             </div>
@@ -638,6 +647,14 @@
   init();
   tick();
 })();
+
+document.querySelectorAll('.project-card').forEach(card => {
+    card.addEventListener('toggle', () => {
+        if (!card.open) return;
+        const thumbnail = card.querySelector('template');
+        if (thumbnail) thumbnail.replaceWith(thumbnail.content);
+    });
+});
 
 // ── Research card toggle ──────────────────────────
 document.querySelectorAll('.research-card').forEach(card => {

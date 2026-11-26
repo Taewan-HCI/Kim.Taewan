@@ -655,15 +655,45 @@ a.paper-tag:hover {
 .demo-card:hover .demo-thumb img { opacity: 0.85; }
 
 .demo-row {
+  align-items: flex-start;
   display: flex;
   gap: 10px;
   flex-wrap: wrap;
   margin-top: 20px;
 }
 .demo-row .demo-card {
-  width: 150px;
-  max-width: 150px;
-  flex: 0 0 auto;
+  flex: 1 1 160px;
+  min-width: 0;
+  max-width: none;
+}
+.project-summary {
+  cursor: pointer;
+  padding: 10px 12px;
+}
+.project-summary .demo-badge {
+  margin-left: 4px;
+}
+.project-summary .demo-card-title,
+.project-description {
+  display: block;
+  margin-top: 5px;
+}
+.project-summary .demo-card-title {
+  color: var(--text);
+  font-size: 13px;
+}
+.project-description,
+.project-detail {
+  color: var(--sub);
+  font-size: 12px;
+  line-height: 1.5;
+}
+.project-detail {
+  padding: 0 12px 10px;
+}
+.project-detail a {
+  display: inline-block;
+  margin-top: 8px;
 }
 .product-thumb {
   aspect-ratio: 4 / 3;
@@ -1133,8 +1163,8 @@ a.paper-tag:hover {
   .nav-links { gap: 16px; }
   .nav-links a { font-size: 12px; }
   .vision-title { font-size: 20px; }
-  .demo-row { flex-direction: column; }
-  .demo-row .demo-card { max-width: none; }
+  .demo-row { flex-direction: column; align-items: stretch; }
+  .demo-row .demo-card { flex-basis: auto; }
   .writing-preview-item { grid-template-columns: 1fr auto; }
   .writing-preview-date { grid-column: 1 / -1; }
   .writing-item { flex-direction: column; }
