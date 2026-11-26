@@ -764,6 +764,7 @@ a.paper-tag:hover {
   border-bottom: 1px solid var(--border);
 }
 .pub-item:first-child { border-top: 1px solid var(--border); margin-top: 16px; }
+.publications-section > .pub-list:last-of-type > .pub-item:last-child { border-bottom: 0; }
 
 .pub-badge {
   display: inline-block;
