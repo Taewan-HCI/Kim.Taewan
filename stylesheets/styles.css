@@ -811,6 +811,48 @@ a.paper-tag:hover {
 }
 .pub-more:hover { color: var(--text); }
 
+/* ─── Notes ─────────────────────────────────────── */
+.notes-section { margin-top: 64px; }
+.notes-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+}
+.notes-all {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+.notes-list {
+  list-style: none;
+  margin-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.notes-list li {
+  display: grid;
+  grid-template-columns: 120px minmax(0, 1fr);
+  align-items: baseline;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border);
+}
+.notes-list time {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+.notes-list a { color: var(--text); font-size: 14px; }
+.notes-list a:hover,
+.notes-all:hover { text-decoration: underline; text-underline-offset: 3px; }
+.notes-archive { max-width: 900px; }
+.notes-entry { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
+.notes-entry img { width: 112px; max-width: 35%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 4px; }
+.post-body p img { display: block; max-width: 100%; height: auto; margin: 12px 0; }
+@media (max-width: 640px) {
+  .notes-list li { grid-template-columns: 1fr; gap: 2px; }
+}
+
 /* ─── Posts (tile grid, used on homepage + /posts/) ─ */
 .posts-lead {
   font-size: 13px;
@@ -1107,7 +1149,7 @@ a.paper-tag:hover {
   .work-kind { display: block; margin-left: 0; }
   .nav-links .nav-wide { display: none; }
   .hero-bio  { font-size: 13px; }
-  .nav-links { gap: 16px; }
+  .nav-links { gap: 10px; }
   .nav-links a { font-size: 12px; }
   .vision-title { font-size: 20px; }
   .demo-row { flex-direction: column; }
