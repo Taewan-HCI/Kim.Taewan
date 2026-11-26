@@ -785,7 +785,8 @@ a.paper-tag:hover {
   line-height: 1.55;
 }
 .pub-authors { margin-bottom: 4px; }
-.pub-authors .self { font-weight: 600; }
+.pub-authors .self,
+.pub-venue { font-weight: 600; }
 
 .pub-meta a {
   color: inherit;
