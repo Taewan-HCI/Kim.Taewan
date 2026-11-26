@@ -1,28 +1,25 @@
 ---
 layout: default
-title: Posts
+title: Notes
 permalink: /posts/
 ---
 <section id="posts-index" class="posts-index">
-    <h2 class="section-label">Posts</h2>
-    <p class="posts-lead">Notes and short essays — less formal than the research above, written as things come up.</p>
+    <h2 class="section-label">Notes</h2>
+    <p class="posts-lead">Notes and short essays on research, design, and everyday life.</p>
 
-    <div class="post-tile-grid">
+    {% if site.posts.size > 0 %}
+    <ul class="notes-list notes-archive">
         {% for post in site.posts %}
-        <a href="{{ post.url | relative_url }}" class="post-tile">
-            <div class="post-tile-visual{% unless post.image %} post-tile-pattern{% endunless %}">
-                {% if post.image %}<img src="{{ post.image | relative_url }}" alt="">{% endif %}
-                <span class="post-tile-index">{{ forloop.index | prepend: '00' | slice: -2, 2 }}</span>
-            </div>
-            <div class="post-tile-caption">
-                <time class="post-tile-date">{{ post.date | date: "%b %-d, %Y" }}</time>
-                <h3 class="post-tile-title">{{ post.title }}</h3>
-            </div>
-        </a>
+        <li>
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+            <a href="{{ post.url | relative_url }}" class="notes-entry">
+                <span>{{ post.title | escape }}</span>
+                {% if post.image %}<img src="{{ post.image | relative_url }}" alt="{{ post.image_alt | default: '' | escape }}" loading="lazy" decoding="async">{% endif %}
+            </a>
+        </li>
         {% endfor %}
-    </div>
-
-    {% if site.posts.size == 0 %}
-    <p class="posts-lead">Nothing posted yet — check back soon.</p>
+    </ul>
+    {% else %}
+    <p class="posts-lead">No notes yet.</p>
     {% endif %}
 </section>

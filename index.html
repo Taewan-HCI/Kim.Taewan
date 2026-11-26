@@ -41,6 +41,7 @@
         <div class="nav-links">
             <a href="#home" class="nav-wide">About</a>
             <a href="#experience">Experience</a>
+            <a href="#notes">Notes</a>
             <a href="#research">Research</a>
             <a href="#work" class="nav-wide">Work</a>
             <a href="#publications">Publications</a>
@@ -237,6 +238,25 @@
         </section>
     </div>
 </div><!-- /single-col -->
+
+<section id="notes" class="single-col notes-section">
+    <div class="notes-heading">
+        <h2 class="section-label">Notes</h2>
+        <a href="{{ '/posts/' | relative_url }}" class="notes-all">View all notes ↗</a>
+    </div>
+    {% if site.posts.size > 0 %}
+    <ul class="notes-list">
+        {% for post in site.posts limit: 3 %}
+        <li>
+            <time datetime="{{ post.date | date: '%Y-%m-%d' }}">{{ post.date | date: "%b %-d, %Y" }}</time>
+            <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p class="posts-lead">No notes yet.</p>
+    {% endif %}
+</section>
 
 <div class="section-band">
 <div class="section-band-inner">
